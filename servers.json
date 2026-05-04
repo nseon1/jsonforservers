@@ -1770,7 +1770,7 @@
   },
   {
     "name": "pufferai",
-    "score": 6.2,
+    "score": 6.9,
     "type": "tool",
     "short desc": "helps with pytorch/model creation",
     "tags": [
@@ -3520,13 +3520,18 @@
     "name": "Torchbearer",
     "score": 7.5,
     "type": "research",
-    "short desc": "",
+    "short desc": "policy,AI safety,Alignment,etc",
     "tags": [
+      "very active",
       "opensci lab",
+      "community projects",
+      "other reading group",
+      "applied reading group/showcase",
+      "opportunities board",
       "ai"
     ],
-    "link": "#",
-    "notes": ""
+    "link": "https://www.torchbearer.community/",
+    "notes": "More intense,for AI safety,policy, some EA, things in that general area"
   },
   {
     "name": "orchestra research community",
