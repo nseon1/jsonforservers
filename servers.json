@@ -244,7 +244,7 @@
       "working group",
       "community projects",
       "research paper reading group",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "ai"
     ],
     "link": "https://alignment.dev/",
@@ -302,7 +302,7 @@
       "semi active",
       "opensci lab",
       "github projects",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "jobs board",
       "ai"
     ],
@@ -350,7 +350,7 @@
       "semi active",
       "opensci lab",
       "community projects",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "semi active creator",
       "ai"
     ],
@@ -452,7 +452,7 @@
       "semi active",
       "opensci lab",
       "community projects",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "jobs board",
       "ai"
     ],
@@ -481,7 +481,7 @@
       "active",
       "working group",
       "github projects",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "ai"
     ],
     "link": "https://unitary.foundation/",
@@ -496,7 +496,7 @@
       "active",
       "grad+industry chat",
       "community projects",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "ai"
     ],
     "link": "https://tokenbender.com/",
@@ -727,7 +727,7 @@
       "active",
       "working group",
       "community projects",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "active creator",
       "ai"
     ],
@@ -1104,7 +1104,7 @@
       "active",
       "github project",
       "github projects",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "jobs board",
       "ai"
     ],
@@ -1761,7 +1761,7 @@
       "semi active",
       "github project",
       "github projects",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "jobs board",
       "ai"
     ],
@@ -2194,7 +2194,7 @@
     "tags": [
       "semi active",
       "working group",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "ai"
     ],
     "link": "https://x.com/harmonai_org",
@@ -2208,7 +2208,7 @@
     "tags": [
       "mostly inactive",
       "github project",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "ai"
     ],
     "link": "https://twitter.com/lateinteraction/status/1754927365174788188",
@@ -2250,7 +2250,7 @@
     "tags": [
       "semi active",
       "community projects",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "irl opportunities",
       "ai"
     ],
@@ -3510,7 +3510,7 @@
       "active",
       "opensci lab",
       "research paper reading group",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "ai"
     ],
     "link": "https://huggingface.co/AgoraX",
@@ -3644,7 +3644,7 @@
     "type": "general",
     "short desc": "GRADSCHOOL, ABOVE ONLY",
     "tags": [
-      "activ",
+      "active",
       "grad+industry chat",
       "opportunities board",
       "science"
@@ -3688,7 +3688,7 @@
     "type": "research",
     "short desc": "Scholarly stuff about content creators",
     "tags": [
-      "semi-active",
+      "semi active",
       "grad+industry chat",
       "opportunities board",
       "science"
@@ -3729,7 +3729,7 @@
     "type": "research",
     "short desc": "various",
     "tags": [
-      "semi-active",
+      "semi active",
       "working group",
       "other reading group",
       "opportunities board",
@@ -3744,9 +3744,9 @@
     "type": "research",
     "short desc": "quantum for biology",
     "tags": [
-      "semi-active",
+      "semi active",
       "working group",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "science"
     ],
     "link": "https://www.quantumbiology.xyz/",
@@ -3776,7 +3776,7 @@
     "tags": [
       "very active",
       "grad+industry chat",
-      "community projectes",
+      "community projects",
       "research paper reading group",
       "applied reading group/showcase",
       "opportunities board",
@@ -3791,10 +3791,10 @@
     "type": "research",
     "short desc": "life sciences+AI",
     "tags": [
-      "semi-active",
+      "semi active",
       "opensci lab",
-      "community projectes",
-      "working group/office hours/chat",
+      "community projects",
+      "office hours/chat/working group",
       "opportunities board",
       "science"
     ],
@@ -3809,7 +3809,7 @@
     "tags": [
       "very active",
       "opensci lab",
-      "community projectes",
+      "community projects",
       "applied reading group/showcase",
       "opportunities board",
       "science"
@@ -3823,7 +3823,7 @@
     "type": "reading group",
     "short desc": "biology",
     "tags": [
-      "semi-active",
+      "semi active",
       "research paper reading group",
       "science"
     ],
@@ -3852,7 +3852,7 @@
     "tags": [
       "semi active",
       "opensci lab",
-      "community projectes",
+      "community projects",
       "science"
     ],
     "link": "https://casualphysicsenjoyer.com/Essays+in+progress/About",
@@ -3864,7 +3864,7 @@
     "type": "general",
     "short desc": "biology research",
     "tags": [
-      "semi-active",
+      "semi active",
       "working group",
       "other reading group",
       "opportunities board",
@@ -3879,7 +3879,7 @@
     "type": "general",
     "short desc": "Improving protocols all around",
     "tags": [
-      "semi-active",
+      "semi active",
       "opensci lab",
       "opportunities board",
       "science"
@@ -3934,7 +3934,7 @@
     "type": "research",
     "short desc": "Biology plus ML",
     "tags": [
-      "semi-active",
+      "semi active",
       "opensci lab",
       "community projects",
       "applied reading group/showcase",
@@ -3951,7 +3951,7 @@
     "type": "research",
     "short desc": "dataset of twitter posts",
     "tags": [
-      "semi-active",
+      "semi active",
       "github project",
       "science"
     ],
@@ -3978,7 +3978,7 @@
     "type": "general",
     "short desc": "funds research projects",
     "tags": [
-      "semi-active",
+      "semi active",
       "opportunities board",
       "science"
     ],
@@ -3991,7 +3991,7 @@
     "type": "hackathon",
     "short desc": "read the dead sea scrolls",
     "tags": [
-      "semi-active",
+      "semi active",
       "working group",
       "science"
     ],
@@ -4004,7 +4004,7 @@
     "type": "research",
     "short desc": "election science",
     "tags": [
-      "semi-active",
+      "semi active",
       "working group",
       "science"
     ],
@@ -4017,9 +4017,9 @@
     "type": "research",
     "short desc": "geospatial research",
     "tags": [
-      "semi-active",
+      "semi active",
       "working group",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "opportunities board",
       "science"
     ],
@@ -4032,7 +4032,7 @@
     "type": "research",
     "short desc": "engineering stuff+software",
     "tags": [
-      "semi-active",
+      "semi active",
       "working group",
       "community projects",
       "science"
@@ -4046,9 +4046,9 @@
     "type": "research",
     "short desc": "hair loss science",
     "tags": [
-      "semi-active",
+      "semi active",
       "working group",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "science"
     ],
     "link": "https://niostem.com/",
@@ -4060,7 +4060,7 @@
     "type": "research",
     "short desc": "swedish quantum society",
     "tags": [
-      "semi-active",
+      "semi active",
       "opensci lab",
       "science"
     ],
@@ -4073,10 +4073,10 @@
     "type": "general",
     "short desc": "geospatial research",
     "tags": [
-      "semi-active",
+      "semi active",
       "github project",
       "community projects",
-      "working group/office hours/chat",
+      "office hours/chat/working group",
       "science"
     ],
     "link": "https://discord.gg/gap8ShWU",
@@ -4088,7 +4088,7 @@
     "type": "general",
     "short desc": "data related stuff",
     "tags": [
-      "semi-active",
+      "semi active",
       "grad+industry chat",
       "science"
     ],
@@ -4101,7 +4101,7 @@
     "type": "general",
     "short desc": "Materials science",
     "tags": [
-      "semi-active",
+      "semi active",
       "github project",
       "science"
     ],
@@ -4116,7 +4116,7 @@
     "tags": [
       "mostly inactive",
       "community projects",
-      "opportunites board",
+      "opportunities board",
       "active creator",
       "science"
     ],
@@ -4129,7 +4129,7 @@
     "type": "general",
     "short desc": "various compsci things",
     "tags": [
-      "semi-active",
+      "semi active",
       "working group",
       "science"
     ],
