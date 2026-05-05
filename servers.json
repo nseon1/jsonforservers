@@ -2,9 +2,9 @@
   {
     "name": "Cohere Labs  open science",
     "score": 8.2,
-    "type": "research",
     "short desc": "Making AI's,learing group,lots of stuff now,need to do a survey to join",
     "tags": [
+      "research",
       "very active",
       "opensci lab",
       "community projects",
@@ -20,9 +20,9 @@
   {
     "name": "EleutherAI",
     "score": 8.1,
-    "type": "research",
     "short desc": "usually LLM, but most types of research is done here",
     "tags": [
+      "research",
       "very active",
       "opensci lab",
       "community projects",
@@ -38,9 +38,9 @@
   {
     "name": "medarc",
     "score": 7.8,
-    "type": "research",
     "short desc": "autonomous ai,among others",
     "tags": [
+      "research",
       "very active",
       "opensci lab",
       "community projects",
@@ -57,9 +57,9 @@
   {
     "name": "orthogonal research",
     "score": 7.7,
-    "type": "research",
     "short desc": "various; some non AI,neurosimulation,cybernetics,open data,etc",
     "tags": [
+      "research",
       "very active",
       "opensci lab",
       "company projects",
@@ -75,9 +75,9 @@
   {
     "name": "manifold research group",
     "score": 7.7,
-    "type": "research",
     "short desc": "autonomous ai,among others",
     "tags": [
+      "research",
       "active",
       "opensci lab",
       "company projects",
@@ -93,9 +93,9 @@
   {
     "name": "Alignment Jams",
     "score": 7.6,
-    "type": "hackathon",
     "short desc": "Alignment",
     "tags": [
+      "hackathon",
       "very active",
       "opensci lab",
       "opportunities board",
@@ -108,9 +108,9 @@
   {
     "name": "Wayfarerlabs",
     "score": 7.5,
-    "type": "research",
     "short desc": "various AI gaming stuff,among others",
     "tags": [
+      "research",
       "very active",
       "opensci lab",
       "company projects",
@@ -122,9 +122,9 @@
   {
     "name": "Gpu mode",
     "score": 7.4,
-    "type": "research",
     "short desc": "gpu,hardware",
     "tags": [
+      "research",
       "very active",
       "opensci lab",
       "community projects",
@@ -139,9 +139,9 @@
   {
     "name": "latent space (nee/dev/invest)",
     "score": 7.3,
-    "type": "general",
     "short desc": "discord server for a podcast",
     "tags": [
+      "general",
       "semi active",
       "grad+industry chat",
       "research paper reading group",
@@ -157,9 +157,9 @@
   {
     "name": "Developmental Interpetability (slt and ai safety)",
     "score": 7.3,
-    "type": "research",
     "short desc": "singular learning theory among others",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "company projects",
@@ -174,9 +174,9 @@
   {
     "name": "Mechanistic interpretability discord",
     "score": 7.3,
-    "type": "research",
     "short desc": "mech interp (transformer research)",
     "tags": [
+      "research",
       "active",
       "opensci lab",
       "community projects",
@@ -190,9 +190,9 @@
   {
     "name": "Active Inference institute",
     "score": 7.3,
-    "type": "research",
     "short desc": "active inference  (think:markov chains among a lot of other things)",
     "tags": [
+      "research",
       "very active",
       "opensci lab",
       "community projects",
@@ -207,9 +207,9 @@
   {
     "name": "ai-plans",
     "score": 7.3,
-    "type": "alignment",
     "short desc": "various ai stuff relating to alignment",
     "tags": [
+      "alignment",
       "active",
       "opensci lab",
       "company projects",
@@ -222,9 +222,9 @@
   {
     "name": "Marin",
     "score": 7.3,
-    "type": "research",
     "short desc": "open lab to build foundational models",
     "tags": [
+      "research",
       "active",
       "working group",
       "company projects",
@@ -237,9 +237,9 @@
   {
     "name": "alignment ecosystem development",
     "score": 7.2,
-    "type": "alignment",
     "short desc": "ai",
     "tags": [
+      "alignment",
       "semi active",
       "working group",
       "community projects",
@@ -253,9 +253,9 @@
   {
     "name": "Discrete diffusion reading group",
     "score": 7.2,
-    "type": "paper reading",
     "short desc": "",
     "tags": [
+      "paper reading",
       "semi active",
       "research paper reading group",
       "ai"
@@ -266,9 +266,9 @@
   {
     "name": "formal language and neural network",
     "score": 7.2,
-    "type": "research",
     "short desc": "LLM stuff",
     "tags": [
+      "research",
       "active",
       "grad+industry chat",
       "research paper reading group",
@@ -280,9 +280,9 @@
   {
     "name": "Berkely Ai safey initative",
     "score": 7.1,
-    "type": "research",
     "short desc": "alignmentpolicy,mech interp,etc",
     "tags": [
+      "research",
       "active",
       "partly irl",
       "opensci lab",
@@ -296,9 +296,9 @@
   {
     "name": "open neuromorphic",
     "score": 7.1,
-    "type": "research",
     "short desc": "neuromorphs learning about AI from a brain approach",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "github projects",
@@ -312,9 +312,9 @@
   {
     "name": "Yannic kilcher",
     "score": 7.1,
-    "type": "research",
     "short desc": "advancedish ai convo",
     "tags": [
+      "research",
       "active",
       "grad+industry chat",
       "community projects",
@@ -329,9 +329,9 @@
   {
     "name": "Machine Learning street talk",
     "score": 7.1,
-    "type": "general",
     "short desc": "general AI convo",
     "tags": [
+      "general",
       "active",
       "grad+industry chat",
       "other reading group",
@@ -344,9 +344,9 @@
   {
     "name": "Huggingscience",
     "score": 7.1,
-    "type": "research",
     "short desc": "various things related to AI for science (alzhimers,low hanging fruit,antibody,etc)",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "community projects",
@@ -360,9 +360,9 @@
   {
     "name": "EvalEval",
     "score": 7.1,
-    "type": "research",
     "short desc": "evaluations,among other things",
     "tags": [
+      "research",
       "active",
       "opensci lab",
       "community projects",
@@ -375,9 +375,9 @@
   {
     "name": "Nous Research",
     "score": 7.1,
-    "type": "research",
     "short desc": "LLM",
     "tags": [
+      "research",
       "active",
       "grad+industry chat",
       "community projects",
@@ -390,9 +390,9 @@
   {
     "name": "john's ai group",
     "score": 7.1,
-    "type": "research",
     "short desc": "general",
     "tags": [
+      "research",
       "active",
       "study group",
       "company projects",
@@ -406,9 +406,9 @@
   {
     "name": "Artifical intelligence",
     "score": 7.0,
-    "type": "general",
     "short desc": "partly research focused AI convo",
     "tags": [
+      "general",
       "active",
       "grad+industry chat",
       "research paper reading group",
@@ -420,9 +420,9 @@
   {
     "name": "janus's server",
     "score": 7.0,
-    "type": "special",
     "short desc": "this server prob transcends scoring",
     "tags": [
+      "special",
       "active",
       "ai"
     ],
@@ -432,9 +432,9 @@
   {
     "name": "RWKV language Model",
     "score": 7.0,
-    "type": "research",
     "short desc": "RWKV (LLMs stuff)",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "github projects",
@@ -446,9 +446,9 @@
   {
     "name": "open sci collective",
     "score": 7.0,
-    "type": "research",
     "short desc": "llms,interpritability,data,etc",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "community projects",
@@ -462,9 +462,9 @@
   {
     "name": "flash linear  attention (asap seminar)",
     "score": 7.0,
-    "type": "paper reading",
     "short desc": "llm stuff for triton (part of a github) ,also runs the asap seminar ,research",
     "tags": [
+      "paper reading",
       "semi active",
       "research paper reading group",
       "ai"
@@ -475,9 +475,9 @@
   {
     "name": "unitary foundation",
     "score": 7.0,
-    "type": "research",
     "short desc": "quantum stuff",
     "tags": [
+      "research",
       "active",
       "working group",
       "github projects",
@@ -490,9 +490,9 @@
   {
     "name": "e/xperiments",
     "score": 7.0,
-    "type": "research",
     "short desc": "multimodal,LLM",
     "tags": [
+      "research",
       "active",
       "grad+industry chat",
       "community projects",
@@ -505,9 +505,9 @@
   {
     "name": "AI safety evals paper reading club",
     "score": 7.0,
-    "type": "paper reading",
     "short desc": "ai safety evals",
     "tags": [
+      "paper reading",
       "active",
       "research paper reading group",
       "ai"
@@ -518,9 +518,9 @@
   {
     "name": "Mathematics & Efficiency of Deep Learning",
     "score": 7.0,
-    "type": "paper reading",
     "short desc": "Math to help with ML",
     "tags": [
+      "paper reading",
       "active",
       "research paper reading group",
       "ai"
@@ -531,9 +531,9 @@
   {
     "name": "ELLIS UniReps Speaker Series",
     "score": 7.0,
-    "type": "paper reading",
     "short desc": "neural networks learning similar representations",
     "tags": [
+      "paper reading",
       "active",
       "research paper reading group",
       "ai"
@@ -544,9 +544,9 @@
   {
     "name": "unsloth ai",
     "score": 7.0,
-    "type": "research",
     "short desc": "helps with finetuneing",
     "tags": [
+      "research",
       "active",
       "working group",
       "github projects",
@@ -558,9 +558,9 @@
   {
     "name": "Various research labs (unis)",
     "score": 7.0,
-    "type": "special",
     "short desc": "",
     "tags": [
+      "special",
       "active",
       "ai"
     ],
@@ -570,9 +570,9 @@
   {
     "name": "LLM space",
     "score": 7.0,
-    "type": "special",
     "short desc": "try to do jailbreaks on AI in their server,puzzles",
     "tags": [
+      "special",
       "active",
       "ai"
     ],
@@ -582,9 +582,9 @@
   {
     "name": "Chips and cheese",
     "score": 7.0,
-    "type": "general",
     "short desc": "leaks and other chipset stuff,gpu",
     "tags": [
+      "general",
       "active",
       "grad+industry chat",
       "ai"
@@ -595,9 +595,9 @@
   {
     "name": "AISI (ai safety institute georgia tech)",
     "score": 7.0,
-    "type": "general",
     "short desc": "ai safety,alignment",
     "tags": [
+      "general",
       "semi active",
       "partly irl",
       "grad+industry chat",
@@ -610,9 +610,9 @@
   {
     "name": "camenduru server",
     "score": 7.0,
-    "type": "research",
     "short desc": "various ai stuff and tools,very useful database of ai github projects and research",
     "tags": [
+      "research",
       "active",
       "grad+industry chat",
       "github projects",
@@ -624,9 +624,9 @@
   {
     "name": "huggingface discord",
     "score": 6.9,
-    "type": "general",
     "short desc": "multimodal",
     "tags": [
+      "general",
       "active",
       "grad+industry chat",
       "community projects",
@@ -639,9 +639,9 @@
   {
     "name": "Multimodality reading group",
     "score": 6.9,
-    "type": "paper reading",
     "short desc": "multimodal machine learning, fusion strategies",
     "tags": [
+      "paper reading",
       "semi active",
       "research paper reading group",
       "ai"
@@ -652,9 +652,9 @@
   {
     "name": "Ai2 (allen institute for AI)",
     "score": 6.9,
-    "type": "research",
     "short desc": "building models/agens",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "company projects",
@@ -667,9 +667,9 @@
   {
     "name": "prime intellect",
     "score": 6.9,
-    "type": "research",
     "short desc": "decentralized learning/ (federated learning?) (crypto based)",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "ai"
@@ -680,9 +680,9 @@
   {
     "name": "brain inspired complexity group",
     "score": 6.9,
-    "type": "paper reading",
     "short desc": "complexity theory stuff",
     "tags": [
+      "paper reading",
       "semi active",
       "research paper reading group",
       "ai"
@@ -693,9 +693,9 @@
   {
     "name": "fast ai",
     "score": 6.8,
-    "type": "education",
     "short desc": "deep learning (various stuff; advanced)",
     "tags": [
+      "education",
       "semi active",
       "study group",
       "ai"
@@ -706,9 +706,9 @@
   {
     "name": "Learn prompting",
     "score": 6.8,
-    "type": "education",
     "short desc": "learn prompting",
     "tags": [
+      "education",
       "semi active",
       "study group",
       "community projects",
@@ -721,9 +721,9 @@
   {
     "name": "ML commons",
     "score": 6.8,
-    "type": "research",
     "short desc": "various ai safety stuff among others",
     "tags": [
+      "research",
       "active",
       "working group",
       "community projects",
@@ -737,9 +737,9 @@
   {
     "name": "aspirational neuroscience",
     "score": 6.9,
-    "type": "paper reading",
     "short desc": "neuroscience related to memory",
     "tags": [
+      "paper reading",
       "active",
       "research paper reading group",
       "ai"
@@ -750,9 +750,9 @@
   {
     "name": "open superintelligence labs",
     "score": 6.8,
-    "type": "research",
     "short desc": "LLM stuff,optimization,stuff needed for AGI",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "community projects",
@@ -765,9 +765,9 @@
   {
     "name": "Tokenization research server",
     "score": 6.8,
-    "type": "research",
     "short desc": "tokens",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "jobs board",
@@ -779,9 +779,9 @@
   {
     "name": "marduk191",
     "score": 6.8,
-    "type": "generation",
     "short desc": "quantization and lots of other related stuff",
     "tags": [
+      "generation",
       "mostly inactive",
       "working group",
       "github projects",
@@ -793,9 +793,9 @@
   {
     "name": "BASI",
     "score": 6.8,
-    "type": "research",
     "short desc": "prompt engineering/red teaming",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "company projects",
@@ -807,9 +807,9 @@
   {
     "name": "inference ai",
     "score": 6.8,
-    "type": "general",
     "short desc": "finding jobs,networking,gpu stuff",
     "tags": [
+      "general",
       "semi active",
       "grad+industry chat",
       "community projects",
@@ -821,9 +821,9 @@
   {
     "name": "Anlatan",
     "score": 6.8,
-    "type": "generation",
     "short desc": "multimodal/creation of new models",
     "tags": [
+      "generation",
       "active",
       "working group",
       "active creator",
@@ -835,9 +835,9 @@
   {
     "name": "Umar Jamil AI",
     "score": 6.8,
-    "type": "research",
     "short desc": "ai,various",
     "tags": [
+      "research",
       "active",
       "active creator",
       "ai"
@@ -848,9 +848,9 @@
   {
     "name": "TohouAI",
     "score": 6.8,
-    "type": "generation",
     "short desc": "tohou based ai images,among other stuff",
     "tags": [
+      "generation",
       "very active",
       "working group",
       "ai"
@@ -861,9 +861,9 @@
   {
     "name": "potato farmers sutdy group",
     "score": 6.8,
-    "type": "general",
     "short desc": "research",
     "tags": [
+      "general",
       "active",
       "study group",
       "opportunities board",
@@ -876,9 +876,9 @@
   {
     "name": "reinforcement learning discussion",
     "score": 6.8,
-    "type": "research",
     "short desc": "RL",
     "tags": [
+      "research",
       "semi active",
       "grad+industry chat",
       "ai"
@@ -889,9 +889,9 @@
   {
     "name": "Eureka Labs",
     "score": 6.8,
-    "type": "education",
     "short desc": "LLM's;ai stuff,nanogpt",
     "tags": [
+      "education",
       "active",
       "study group",
       "ai"
@@ -902,9 +902,9 @@
   {
     "name": "dev mode",
     "score": 6.8,
-    "type": "general",
     "short desc": "tracks API changes and policy changes in AI companies,and leaks",
     "tags": [
+      "general",
       "active",
       "github project",
       "ai"
@@ -915,9 +915,9 @@
   {
     "name": "duck ai",
     "score": 6.8,
-    "type": "research",
     "short desc": "general",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "github projects",
@@ -929,9 +929,9 @@
   {
     "name": "nordic neuromorphs",
     "score": 6.8,
-    "type": "research",
     "short desc": "neuromorphs learning about AI from a brain approach",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "company projects",
@@ -943,9 +943,9 @@
   {
     "name": "Open Ethics",
     "score": 6.7,
-    "type": "ai safety",
     "short desc": "governance,reading group",
     "tags": [
+      "ai safety",
       "mostly inactive",
       "other reading group",
       "ai"
@@ -956,9 +956,9 @@
   {
     "name": "comma ai",
     "score": 6.7,
-    "type": "research",
     "short desc": "open source self driving car",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "github projects",
@@ -971,9 +971,9 @@
   {
     "name": "ultralytics",
     "score": 6.7,
-    "type": "research",
     "short desc": "computer vision",
     "tags": [
+      "research",
       "semi active",
       "github project",
       "github projects",
@@ -985,9 +985,9 @@
   {
     "name": "Ai safety founders",
     "score": 6.7,
-    "type": "ai safety",
     "short desc": "entrepreneurial side,general community building etc",
     "tags": [
+      "ai safety",
       "active",
       "grad+industry chat",
       "community projects",
@@ -999,9 +999,9 @@
   {
     "name": "le robot",
     "score": 6.7,
-    "type": "research",
     "short desc": "robotics",
     "tags": [
+      "research",
       "active",
       "grad+industry chat",
       "jobs board",
@@ -1013,9 +1013,9 @@
   {
     "name": "goodfire research",
     "score": 6.7,
-    "type": "research",
     "short desc": "mech interp",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "ai"
@@ -1026,9 +1026,9 @@
   {
     "name": "agentic AI mooc",
     "score": 6.7,
-    "type": "education",
     "short desc": "agentic AI",
     "tags": [
+      "education",
       "active",
       "study group",
       "community projects",
@@ -1041,9 +1041,9 @@
   {
     "name": "huntr",
     "score": 6.7,
-    "type": "casual",
     "short desc": "platform to find ai bug bounties",
     "tags": [
+      "casual",
       "mostly inactive",
       "ai"
     ],
@@ -1053,9 +1053,9 @@
   {
     "name": "National Taiwan University AI safety",
     "score": 6.6,
-    "type": "research",
     "short desc": "AI safety mostly",
     "tags": [
+      "research",
       "semi active",
       "irl based",
       "research paper reading group",
@@ -1068,9 +1068,9 @@
   {
     "name": "Mozilla AI",
     "score": 6.6,
-    "type": "tool",
     "short desc": "various github projects",
     "tags": [
+      "tool",
       "semi active",
       "github project",
       "github projects",
@@ -1083,9 +1083,9 @@
   {
     "name": "Aleksa Gordic",
     "score": 6.6,
-    "type": "general ai",
     "short desc": "llm;model building among others",
     "tags": [
+      "general ai",
       "semi active",
       "github projects",
       "jobs board",
@@ -1098,9 +1098,9 @@
   {
     "name": "comfy org",
     "score": 6.6,
-    "type": "research",
     "short desc": "open source",
     "tags": [
+      "research",
       "active",
       "github project",
       "github projects",
@@ -1114,9 +1114,9 @@
   {
     "name": "AI forum for india",
     "score": 6.6,
-    "type": "general",
     "short desc": "kinda reminds me of linkdein.",
     "tags": [
+      "general",
       "very active",
       "applied reading group/showcase",
       "ai"
@@ -1127,9 +1127,9 @@
   {
     "name": "Lucky robots",
     "score": 6.6,
-    "type": "robotics",
     "short desc": "training,also a company",
     "tags": [
+      "robotics",
       "semi active",
       "github project",
       "active creator",
@@ -1141,9 +1141,9 @@
   {
     "name": "Behaviour1k",
     "score": 6.6,
-    "type": "research",
     "short desc": "Vision language",
     "tags": [
+      "research",
       "semi active",
       "grad+industry chat",
       "github projects",
@@ -1155,9 +1155,9 @@
   {
     "name": "gray swan arena",
     "score": 6.6,
-    "type": "research",
     "short desc": "red teaming",
     "tags": [
+      "research",
       "active",
       "working group",
       "company projects",
@@ -1169,9 +1169,9 @@
   {
     "name": "arc prize",
     "score": 6.6,
-    "type": "research",
     "short desc": "arc prize esque stuff",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "ai"
@@ -1182,9 +1182,9 @@
   {
     "name": "terminus research group",
     "score": 6.6,
-    "type": "general",
     "short desc": "building and finetuneing  ais... i think",
     "tags": [
+      "general",
       "active",
       "opensci lab",
       "ai"
@@ -1195,9 +1195,9 @@
   {
     "name": "neurosymbolicAI",
     "score": 6.6,
-    "type": "fellowship",
     "short desc": "hosts neurosymbolic summer school",
     "tags": [
+      "fellowship",
       "active",
       "ai"
     ],
@@ -1207,9 +1207,9 @@
   {
     "name": "PrismML",
     "score": 6.6,
-    "type": "research",
     "short desc": "small models",
     "tags": [
+      "research",
       "active",
       "github project",
       "github projects",
@@ -1221,9 +1221,9 @@
   {
     "name": "multimodal minds",
     "score": 6.6,
-    "type": "research",
     "short desc": "multimodal models",
     "tags": [
+      "research",
       "semi active",
       "github project",
       "applied reading group/showcase",
@@ -1235,9 +1235,9 @@
   {
     "name": "Wisconsin AI safety initative",
     "score": 6.5,
-    "type": "research",
     "short desc": "Ai safety",
     "tags": [
+      "research",
       "semi active",
       "irl based",
       "irl opportunities",
@@ -1249,9 +1249,9 @@
   {
     "name": "aisafety dot com",
     "score": 6.5,
-    "type": "alignment",
     "short desc": "resources (events conferences etc)",
     "tags": [
+      "alignment",
       "semi active",
       "ai"
     ],
@@ -1261,9 +1261,9 @@
   {
     "name": "adjont",
     "score": 6.5,
-    "type": "research",
     "short desc": "math stuff relating to ai",
     "tags": [
+      "research",
       "semi active",
       "ai"
     ],
@@ -1273,9 +1273,9 @@
   {
     "name": "intel devhub",
     "score": 6.5,
-    "type": "general",
     "short desc": "ai/gpu",
     "tags": [
+      "general",
       "semi active",
       "applied reading group/showcase",
       "ai"
@@ -1286,9 +1286,9 @@
   {
     "name": "occiglot",
     "score": 6.5,
-    "type": "research",
     "short desc": "language models (multlingual)",
     "tags": [
+      "research",
       "semi active",
       "github project",
       "community projects",
@@ -1301,9 +1301,9 @@
   {
     "name": "edge ai foundation",
     "score": 6.5,
-    "type": "conference",
     "short desc": "varioussome researchy,some entrepreneurial,etc",
     "tags": [
+      "conference",
       "mostly inactive",
       "irl based",
       "ai"
@@ -1314,9 +1314,9 @@
   {
     "name": "oxen ai",
     "score": 6.5,
-    "type": "general",
     "short desc": "arxiv ai paper reading (oxen is a site)",
     "tags": [
+      "general",
       "semi active",
       "research paper reading group",
       "ai"
@@ -1327,9 +1327,9 @@
   {
     "name": "chicago ml paper reading club",
     "score": 6.5,
-    "type": "paper reading",
     "short desc": "reading ml group",
     "tags": [
+      "paper reading",
       "semi active",
       "irl based",
       "research paper reading group",
@@ -1341,9 +1341,9 @@
   {
     "name": "mrnerf and brush",
     "score": 6.5,
-    "type": "research",
     "short desc": "the kind of stuff you'd see on sisgraph",
     "tags": [
+      "research",
       "semi active",
       "grad+industry chat",
       "community projects",
@@ -1356,9 +1356,9 @@
   {
     "name": "Universe TBD",
     "score": 6.5,
-    "type": "research",
     "short desc": "democraticizing research",
     "tags": [
+      "research",
       "mostly inactive",
       "opensci lab",
       "research paper reading group",
@@ -1370,9 +1370,9 @@
   {
     "name": "a division by zero",
     "score": 6.5,
-    "type": "general",
     "short desc": "various tools and stuff",
     "tags": [
+      "general",
       "active",
       "github projects",
       "ai"
@@ -1383,9 +1383,9 @@
   {
     "name": "morpheous audio research",
     "score": 6.5,
-    "type": "research",
     "short desc": "audio/text to speech",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "github projects",
@@ -1397,9 +1397,9 @@
   {
     "name": "PauseAI",
     "score": 6.5,
-    "type": "alignment",
     "short desc": "pausing AI",
     "tags": [
+      "alignment",
       "semi active",
       "company projects",
       "ai"
@@ -1410,9 +1410,9 @@
   {
     "name": "Batbot",
     "score": 6.5,
-    "type": "generation",
     "short desc": "text/image",
     "tags": [
+      "generation",
       "active",
       "github project",
       "active creator",
@@ -1424,9 +1424,9 @@
   {
     "name": "r/machinelearning(and most other reddits)",
     "score": 6.5,
-    "type": "general",
     "short desc": "education,papers,etc",
     "tags": [
+      "general",
       "semi active",
       "study group",
       "ai"
@@ -1437,9 +1437,9 @@
   {
     "name": "[redacted] personal server",
     "score": 6.5,
-    "type": "general",
     "short desc": "general",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -1449,9 +1449,9 @@
   {
     "name": "virtual valley ai",
     "score": 6.5,
-    "type": "general",
     "short desc": "general ai stuff",
     "tags": [
+      "general",
       "semi active",
       "github project",
       "ai"
@@ -1462,9 +1462,9 @@
   {
     "name": "Random research lab",
     "score": 6.5,
-    "type": "general",
     "short desc": "mostly image gen",
     "tags": [
+      "general",
       "active",
       "ai"
     ],
@@ -1474,9 +1474,9 @@
   {
     "name": "Ai leaks",
     "score": 6.5,
-    "type": "general",
     "short desc": "AI leaks",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -1486,9 +1486,9 @@
   {
     "name": "amd developer community",
     "score": 6.5,
-    "type": "general",
     "short desc": "ai/gpu",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -1498,9 +1498,9 @@
   {
     "name": "northwestern university AI safety",
     "score": 6.5,
-    "type": "alignment",
     "short desc": "ai safety,resources to fellowships",
     "tags": [
+      "alignment",
       "semi active",
       "irl based",
       "irl opportunities",
@@ -1512,9 +1512,9 @@
   {
     "name": "women in ai research",
     "score": 6.4,
-    "type": "general",
     "short desc": "ai,does a podcast",
     "tags": [
+      "general",
       "semi active",
       "opportunities board",
       "jobs board",
@@ -1527,9 +1527,9 @@
   {
     "name": "ai vulnerability database",
     "score": 6.4,
-    "type": "research",
     "short desc": "database and testing of ai vulnerabilities",
     "tags": [
+      "research",
       "semi active",
       "community projects",
       "jobs board",
@@ -1541,9 +1541,9 @@
   {
     "name": "human centric machine learning reading group",
     "score": 6.4,
-    "type": "paper reading",
     "short desc": "Human centric machine learning",
     "tags": [
+      "paper reading",
       "semi active",
       "research paper reading group",
       "ai"
@@ -1554,9 +1554,9 @@
   {
     "name": "Pluralis research",
     "score": 6.4,
-    "type": "research",
     "short desc": "decentralized learning/ (federated learning?)",
     "tags": [
+      "research",
       "active",
       "opensci lab",
       "github projects",
@@ -1569,9 +1569,9 @@
   {
     "name": "Rob Miles",
     "score": 6.4,
-    "type": "general",
     "short desc": "alignment",
     "tags": [
+      "general",
       "semi active",
       "active creator",
       "ai"
@@ -1582,9 +1582,9 @@
   {
     "name": "Tonic's better prompts",
     "score": 6.4,
-    "type": "research",
     "short desc": "prompts,but lots of other stuff",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "jobs board",
@@ -1596,9 +1596,9 @@
   {
     "name": "computer vision",
     "score": 6.3,
-    "type": "research",
     "short desc": "computer vision",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "jobs board",
@@ -1610,9 +1610,9 @@
   {
     "name": "ai village",
     "score": 6.3,
-    "type": "research",
     "short desc": "ai security,red teaming,etc",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "jobs board",
@@ -1624,9 +1624,9 @@
   {
     "name": "ai warehouse",
     "score": 6.3,
-    "type": "education",
     "short desc": "reinforcement learing",
     "tags": [
+      "education",
       "active",
       "ai"
     ],
@@ -1636,9 +1636,9 @@
   {
     "name": "kaggle",
     "score": 6.3,
-    "type": "general",
     "short desc": "ai hackathons",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -1648,9 +1648,9 @@
   {
     "name": "LAION",
     "score": 6.2,
-    "type": "research",
     "short desc": "creation of various models",
     "tags": [
+      "research",
       "mostly inactive",
       "opensci lab",
       "github projects",
@@ -1662,9 +1662,9 @@
   {
     "name": "expedition Aya",
     "score": 6.2,
-    "type": "research",
     "short desc": "multimodal",
     "tags": [
+      "research",
       "mostly inactive",
       "working group",
       "jobs board",
@@ -1676,9 +1676,9 @@
   {
     "name": "m-a-p.ai",
     "score": 6.2,
-    "type": "research",
     "short desc": "multimodal,data processing,etc",
     "tags": [
+      "research",
       "mostly inactive",
       "working group",
       "github projects",
@@ -1690,9 +1690,9 @@
   {
     "name": "caligostro research lab",
     "score": 6.2,
-    "type": "research",
     "short desc": "open source anime model",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "github projects",
@@ -1704,9 +1704,9 @@
   {
     "name": "leela chess zero",
     "score": 6.2,
-    "type": "research",
     "short desc": "chess ai",
     "tags": [
+      "research",
       "semi active",
       "github project",
       "ai"
@@ -1717,9 +1717,9 @@
   {
     "name": "beaver ai club",
     "score": 6.2,
-    "type": "generation",
     "short desc": "models on huggingface",
     "tags": [
+      "generation",
       "semi active",
       "working group",
       "ai"
@@ -1730,9 +1730,9 @@
   {
     "name": "cara ai",
     "score": 6.2,
-    "type": "general",
     "short desc": "ai art",
     "tags": [
+      "general",
       "semi active",
       "jobs board",
       "ai"
@@ -1743,9 +1743,9 @@
   {
     "name": "bandoco",
     "score": 6.2,
-    "type": "general",
     "short desc": "ai art",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -1755,9 +1755,9 @@
   {
     "name": "autogen",
     "score": 6.2,
-    "type": "tool",
     "short desc": "microsoft autogen on github",
     "tags": [
+      "tool",
       "semi active",
       "github project",
       "github projects",
@@ -1771,9 +1771,9 @@
   {
     "name": "pufferai",
     "score": 6.9,
-    "type": "tool",
     "short desc": "helps with pytorch/model creation",
     "tags": [
+      "tool",
       "semi active",
       "github project",
       "ai"
@@ -1784,9 +1784,9 @@
   {
     "name": "learn ai together",
     "score": 6.1,
-    "type": "education",
     "short desc": "applied/business type stuff",
     "tags": [
+      "education",
       "active",
       "grad+industry chat",
       "opportunities board",
@@ -1799,9 +1799,9 @@
   {
     "name": "AI tinkerers",
     "score": 6.1,
-    "type": "general",
     "short desc": "entrepreneurship,AI builders,irl meetups.",
     "tags": [
+      "general",
       "semi active",
       "grad+industry chat",
       "community projects",
@@ -1817,9 +1817,9 @@
   {
     "name": "instruct kr (KOREAN)",
     "score": 6.1,
-    "type": "research",
     "short desc": "model creation",
     "tags": [
+      "research",
       "active",
       "ai"
     ],
@@ -1829,9 +1829,9 @@
   {
     "name": "tunadorable",
     "score": 6.1,
-    "type": "general",
     "short desc": "ai research/learning",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -1841,9 +1841,9 @@
   {
     "name": "camel ai",
     "score": 6.1,
-    "type": "research",
     "short desc": "framework to help build multi agents",
     "tags": [
+      "research",
       "semi active",
       "github project",
       "github projects",
@@ -1855,9 +1855,9 @@
   {
     "name": "deep learning with yacine",
     "score": 6.1,
-    "type": "general",
     "short desc": "ai education",
     "tags": [
+      "general",
       "mostly inactive",
       "semi active creator",
       "ai"
@@ -1868,9 +1868,9 @@
   {
     "name": "SAIL (stanford ai lab)",
     "score": 6.1,
-    "type": "casual",
     "short desc": "ai convos",
     "tags": [
+      "casual",
       "semi active",
       "ai"
     ],
@@ -1880,9 +1880,9 @@
   {
     "name": "SEA crowd",
     "score": 6.1,
-    "type": "research",
     "short desc": "making a southeastasian focused LLM",
     "tags": [
+      "research",
       "active",
       "working group",
       "ai"
@@ -1893,9 +1893,9 @@
   {
     "name": "pollen community",
     "score": 6.1,
-    "type": "research",
     "short desc": "robotics",
     "tags": [
+      "research",
       "mostly inactive",
       "working group",
       "ai"
@@ -1906,9 +1906,9 @@
   {
     "name": "mlops community (unrelated to mlops)",
     "score": 6.1,
-    "type": "general",
     "short desc": "education in AI, various ML ops stuff",
     "tags": [
+      "general",
       "semi active",
       "study group",
       "opportunities board",
@@ -1921,9 +1921,9 @@
   {
     "name": "ai revolution",
     "score": 6.1,
-    "type": "general",
     "short desc": "ai art,youtuber who helps sets up these stuff",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -1933,9 +1933,9 @@
   {
     "name": "nvidia omniverse",
     "score": 6.1,
-    "type": "research",
     "short desc": "various",
     "tags": [
+      "research",
       "semi active",
       "ai"
     ],
@@ -1945,9 +1945,9 @@
   {
     "name": "gensyn",
     "score": 6.1,
-    "type": "research",
     "short desc": "decentralized learing/ (federated learning?) (crypto based)",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "ai"
@@ -1958,9 +1958,9 @@
   {
     "name": "Farama foundation",
     "score": 6.0,
-    "type": "tool",
     "short desc": "reinforcement learning stuff",
     "tags": [
+      "tool",
       "active",
       "github projects",
       "ai"
@@ -1971,9 +1971,9 @@
   {
     "name": "doomsday cult",
     "score": 6.0,
-    "type": "general",
     "short desc": "Alignment",
     "tags": [
+      "general",
       "active",
       "ai"
     ],
@@ -1983,9 +1983,9 @@
   {
     "name": "SaravamAI",
     "score": 6.0,
-    "type": "general",
     "short desc": "entrepreneurship,AI builders,irl meetups,also a product",
     "tags": [
+      "general",
       "semi active",
       "grad+industry chat",
       "ai"
@@ -1996,9 +1996,9 @@
   {
     "name": "ekkolapto",
     "score": 6.0,
-    "type": "research",
     "short desc": "interdisciplinary",
     "tags": [
+      "research",
       "mostly inactive",
       "opensci lab",
       "opportunities board",
@@ -2011,9 +2011,9 @@
   {
     "name": "neural MMO",
     "score": 6.0,
-    "type": "general",
     "short desc": "ai's chatting with each other",
     "tags": [
+      "general",
       "active",
       "github projects",
       "ai"
@@ -2024,9 +2024,9 @@
   {
     "name": "CS25 transformers",
     "score": 6.0,
-    "type": "education",
     "short desc": "a course on transformers",
     "tags": [
+      "education",
       "active",
       "ai"
     ],
@@ -2036,9 +2036,9 @@
   {
     "name": "lab42",
     "score": 6.0,
-    "type": "hackathons",
     "short desc": "arc agi",
     "tags": [
+      "hackathons",
       "mostly inactive",
       "ai"
     ],
@@ -2048,9 +2048,9 @@
   {
     "name": "encode club",
     "score": 6.0,
-    "type": "education",
     "short desc": "more broad,some ai hackathons,crypto based.",
     "tags": [
+      "education",
       "active",
       "study group",
       "ai"
@@ -2061,9 +2061,9 @@
   {
     "name": "bycloud's discord server",
     "score": 6.0,
-    "type": "general",
     "short desc": "similar to MLST or yannic (their youtube is good though)",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -2073,9 +2073,9 @@
   {
     "name": "Exploring ml",
     "score": 6.0,
-    "type": "general",
     "short desc": "education/research",
     "tags": [
+      "general",
       "semi active",
       "study group",
       "ai"
@@ -2086,9 +2086,9 @@
   {
     "name": "National deep inference fabric",
     "score": 6.0,
-    "type": "tool",
     "short desc": "compute cluster for research",
     "tags": [
+      "tool",
       "semi active",
       "github project",
       "ai"
@@ -2099,9 +2099,9 @@
   {
     "name": "tensorplex labs",
     "score": 6.0,
-    "type": "crypto",
     "short desc": "decentralized ai",
     "tags": [
+      "crypto",
       "semi active",
       "ai"
     ],
@@ -2111,9 +2111,9 @@
   {
     "name": "whitebox research",
     "score": 6.0,
-    "type": "research",
     "short desc": "fellowship for mech interp stuff",
     "tags": [
+      "research",
       "semi active",
       "ai"
     ],
@@ -2123,9 +2123,9 @@
   {
     "name": "machine learning news google groups (among others)",
     "score": 6.0,
-    "type": "research",
     "short desc": "various",
     "tags": [
+      "research",
       "semi active",
       "ai"
     ],
@@ -2135,9 +2135,9 @@
   {
     "name": "papers we love",
     "score": 5.9,
-    "type": "paper reading",
     "short desc": "General ML,math moslty",
     "tags": [
+      "paper reading",
       "semi active",
       "research paper reading group",
       "irl opportunities",
@@ -2149,9 +2149,9 @@
   {
     "name": "ai safety strategy",
     "score": 5.9,
-    "type": "research",
     "short desc": "strategy for ai safety",
     "tags": [
+      "research",
       "semi active",
       "applied reading group/showcase",
       "ai"
@@ -2162,9 +2162,9 @@
   {
     "name": "the arena online",
     "score": 5.9,
-    "type": "general",
     "short desc": "ai adjacent stuff",
     "tags": [
+      "general",
       "mostly inactive",
       "semi active creator",
       "ai"
@@ -2175,9 +2175,9 @@
   {
     "name": "ai alliance community",
     "score": 5.9,
-    "type": "research",
     "short desc": "reading groups,meetups,etc",
     "tags": [
+      "research",
       "mostly inactive",
       "research paper reading group",
       "applied reading group/showcase",
@@ -2189,9 +2189,9 @@
   {
     "name": "Harmonai",
     "score": 5.9,
-    "type": "research",
     "short desc": "audio ai",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "office hours/chat/working group",
@@ -2203,9 +2203,9 @@
   {
     "name": "Dspy",
     "score": 5.9,
-    "type": "tool",
     "short desc": "finetuneing models using text or something liek that",
     "tags": [
+      "tool",
       "mostly inactive",
       "github project",
       "office hours/chat/working group",
@@ -2217,9 +2217,9 @@
   {
     "name": "The NSF AI Institute for Artificial Intelligence and Fundamental Interactions (IAIFI)",
     "score": 5.9,
-    "type": "paper reading",
     "short desc": "various events,reading groups",
     "tags": [
+      "paper reading",
       "mostly inactive",
       "working group",
       "research paper reading group",
@@ -2232,9 +2232,9 @@
   {
     "name": "ai art with sebastian kamph",
     "score": 5.9,
-    "type": "general",
     "short desc": "ai art,youtuber who helps sets up these stuff",
     "tags": [
+      "general",
       "mostly inactive",
       "semi active creator",
       "ai"
@@ -2245,9 +2245,9 @@
   {
     "name": "azure ai foundry",
     "score": 5.8,
-    "type": "enterpreneurship",
     "short desc": "ainotably azure tools",
     "tags": [
+      "enterpreneurship",
       "semi active",
       "community projects",
       "office hours/chat/working group",
@@ -2260,9 +2260,9 @@
   {
     "name": "buzzrobot",
     "score": 5.8,
-    "type": "general",
     "short desc": "AI podcast/talks ;some researchers, not too technical",
     "tags": [
+      "general",
       "mostly inactive",
       "applied reading group/showcase",
       "active creator",
@@ -2274,9 +2274,9 @@
   {
     "name": "piss",
     "score": 5.8,
-    "type": "general",
     "short desc": "general ai stuff (alignment?)",
     "tags": [
+      "general",
       "mostly inactive",
       "ai"
     ],
@@ -2286,9 +2286,9 @@
   {
     "name": "satelite image deep learning",
     "score": 5.8,
-    "type": "research",
     "short desc": "satelite images deep learning",
     "tags": [
+      "research",
       "mostly inactive",
       "github project",
       "ai"
@@ -2299,9 +2299,9 @@
   {
     "name": "intelligent internet",
     "score": 5.7,
-    "type": "research",
     "short desc": "agents,ai models,etc",
     "tags": [
+      "research",
       "semi active",
       "github project",
       "github projects",
@@ -2313,9 +2313,9 @@
   {
     "name": "hu-po",
     "score": 5.7,
-    "type": "research",
     "short desc": "general",
     "tags": [
+      "research",
       "semi active",
       "active creator",
       "ai"
@@ -2326,9 +2326,9 @@
   {
     "name": "Brev.dev",
     "score": 5.7,
-    "type": "education",
     "short desc": "help with building GPU stuff",
     "tags": [
+      "education",
       "mostly inactive",
       "ai"
     ],
@@ -2338,9 +2338,9 @@
   {
     "name": "lm arena",
     "score": 5.7,
-    "type": "casual",
     "short desc": "rate some llm's against each other",
     "tags": [
+      "casual",
       "semi active",
       "ai"
     ],
@@ -2350,9 +2350,9 @@
   {
     "name": "ai lab",
     "score": 5.7,
-    "type": "general",
     "short desc": "multimodal i think (its turkish)",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -2362,9 +2362,9 @@
   {
     "name": "chroma",
     "score": 5.7,
-    "type": "database",
     "short desc": "for LLM's",
     "tags": [
+      "database",
       "semi active",
       "ai"
     ],
@@ -2374,9 +2374,9 @@
   {
     "name": "synth labs",
     "score": 5.7,
-    "type": "research",
     "short desc": "Alignment",
     "tags": [
+      "research",
       "mostly inactive",
       "working group",
       "ai"
@@ -2387,9 +2387,9 @@
   {
     "name": "ai nordics (sweden and others)",
     "score": 5.6,
-    "type": "generation",
     "short desc": "multimodal",
     "tags": [
+      "generation",
       "semi active",
       "working group",
       "jobs board",
@@ -2401,9 +2401,9 @@
   {
     "name": "lossfunk",
     "score": 5.6,
-    "type": "fellowship",
     "short desc": "provides resources to work on your own project",
     "tags": [
+      "fellowship",
       "semi active",
       "community projects",
       "active creator",
@@ -2415,9 +2415,9 @@
   {
     "name": "groundzeroAI",
     "score": 5.6,
-    "type": "education",
     "short desc": "going from beginner to advanced in ai,podcast",
     "tags": [
+      "education",
       "mostly inactive",
       "study group",
       "semi active creator",
@@ -2429,9 +2429,9 @@
   {
     "name": "euroswarms",
     "score": 5.6,
-    "type": "research",
     "short desc": "unsure,AI transparency?",
     "tags": [
+      "research",
       "semi active",
       "ai"
     ],
@@ -2441,9 +2441,9 @@
   {
     "name": "langgang",
     "score": 5.6,
-    "type": "research",
     "short desc": "ai model for disaster management",
     "tags": [
+      "research",
       "mostly inactive",
       "github project",
       "ai"
@@ -2454,9 +2454,9 @@
   {
     "name": "typhoon",
     "score": 5.6,
-    "type": "generation",
     "short desc": "building an low end ai model",
     "tags": [
+      "generation",
       "semi active",
       "working group",
       "ai"
@@ -2467,9 +2467,9 @@
   {
     "name": "sage",
     "score": 5.6,
-    "type": "research",
     "short desc": "ai safety",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "ai"
@@ -2480,9 +2480,9 @@
   {
     "name": "Alignment lab AI",
     "score": 5.5,
-    "type": "research",
     "short desc": "LLM's I think",
     "tags": [
+      "research",
       "mostly inactive",
       "working group",
       "community projects",
@@ -2495,9 +2495,9 @@
   {
     "name": "mlspace the machine learning community",
     "score": 5.5,
-    "type": "general",
     "short desc": "ai stuff",
     "tags": [
+      "general",
       "semi active",
       "study group",
       "jobs board",
@@ -2509,9 +2509,9 @@
   {
     "name": "ai hub by weights",
     "score": 5.5,
-    "type": "general",
     "short desc": "ai",
     "tags": [
+      "general",
       "active",
       "study group",
       "semi active creator",
@@ -2523,9 +2523,9 @@
   {
     "name": "Various AI events on meetup,luma, etc",
     "score": 5.5,
-    "type": "research",
     "short desc": "various,some general",
     "tags": [
+      "research",
       "active",
       "ai"
     ],
@@ -2535,9 +2535,9 @@
   {
     "name": "elysian labs",
     "score": 5.5,
-    "type": "research",
     "short desc": "catgirls",
     "tags": [
+      "research",
       "mostly inactive",
       "working group",
       "ai"
@@ -2548,9 +2548,9 @@
   {
     "name": "Tpu podtcast",
     "score": 5.5,
-    "type": "general",
     "short desc": "various; lots of skilled people",
     "tags": [
+      "general",
       "mostly inactive",
       "ai"
     ],
@@ -2560,9 +2560,9 @@
   {
     "name": "purplesmartai",
     "score": 5.5,
-    "type": "general",
     "short desc": "image generation",
     "tags": [
+      "general",
       "semi active",
       "working group",
       "ai"
@@ -2573,9 +2573,9 @@
   {
     "name": "cognitive computations",
     "score": 5.5,
-    "type": "research",
     "short desc": "making llms",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "ai"
@@ -2586,9 +2586,9 @@
   {
     "name": "moondream ai",
     "score": 5.4,
-    "type": "tool",
     "short desc": "visual language model",
     "tags": [
+      "tool",
       "mostly inactive",
       "github project",
       "github projects",
@@ -2600,9 +2600,9 @@
   {
     "name": "buneos aires ai safety club",
     "score": 5.4,
-    "type": "general",
     "short desc": "ai safety",
     "tags": [
+      "general",
       "semi active",
       "irl based",
       "ai"
@@ -2613,9 +2613,9 @@
   {
     "name": "TheBlokeAI",
     "score": 5.4,
-    "type": "generation",
     "short desc": "various models on huggingface",
     "tags": [
+      "generation",
       "active",
       "company projects",
       "ai"
@@ -2626,9 +2626,9 @@
   {
     "name": "AgentPlex",
     "score": 5.4,
-    "type": "hackathon",
     "short desc": "1 off hackathon to make an ai agent",
     "tags": [
+      "hackathon",
       "mostly inactive",
       "ai"
     ],
@@ -2638,9 +2638,9 @@
   {
     "name": "aiproducthive",
     "score": 5.3,
-    "type": "general",
     "short desc": "ai",
     "tags": [
+      "general",
       "mostly inactive",
       "jobs board",
       "ai"
@@ -2651,9 +2651,9 @@
   {
     "name": "MLops chipro",
     "score": 5.3,
-    "type": "research",
     "short desc": "building things with ai",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "opportunities board",
@@ -2665,9 +2665,9 @@
   {
     "name": "A.C.O",
     "score": 5.3,
-    "type": "general",
     "short desc": "ai (notably ai and emotions???)",
     "tags": [
+      "general",
       "semi active",
       "github project",
       "company projects",
@@ -2680,9 +2680,9 @@
   {
     "name": "bio/neurao ai to the moon (and other TG channels)",
     "score": 5.3,
-    "type": "general",
     "short desc": "talks about research,but shallow",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -2692,9 +2692,9 @@
   {
     "name": "various datasci and ml fb groups:",
     "score": 5.3,
-    "type": "research",
     "short desc": "various",
     "tags": [
+      "research",
       "semi active",
       "ai"
     ],
@@ -2704,9 +2704,9 @@
   {
     "name": "EXO",
     "score": 5.3,
-    "type": "research",
     "short desc": "ai at home",
     "tags": [
+      "research",
       "semi active",
       "ai"
     ],
@@ -2716,9 +2716,9 @@
   {
     "name": "replete-ai",
     "score": 5.3,
-    "type": "general",
     "short desc": "ai",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -2728,9 +2728,9 @@
   {
     "name": "latinix in ai",
     "score": 5.2,
-    "type": "general",
     "short desc": "research",
     "tags": [
+      "general",
       "semi active",
       "irl opportunities",
       "semi active creator",
@@ -2742,9 +2742,9 @@
   {
     "name": "stunspot prompting",
     "score": 5.2,
-    "type": "research",
     "short desc": "prompt engineering",
     "tags": [
+      "research",
       "semi active",
       "study group",
       "ai"
@@ -2755,9 +2755,9 @@
   {
     "name": "Ml collective open collab",
     "score": 5.1,
-    "type": "general",
     "short desc": "ai research",
     "tags": [
+      "general",
       "mostly inactive",
       "working group",
       "jobs board",
@@ -2769,9 +2769,9 @@
   {
     "name": "fox engine ai",
     "score": 5.1,
-    "type": "general",
     "short desc": "ai",
     "tags": [
+      "general",
       "mostly inactive",
       "github project",
       "jobs board",
@@ -2783,9 +2783,9 @@
   {
     "name": "plastic labs",
     "score": 5.1,
-    "type": "research",
     "short desc": "company",
     "tags": [
+      "research",
       "mostly inactive",
       "company projects",
       "ai"
@@ -2796,9 +2796,9 @@
   {
     "name": "aixplain agent lab",
     "score": 5.1,
-    "type": "company",
     "short desc": "SDK(library?) to help build agents",
     "tags": [
+      "company",
       "mostly inactive",
       "github project",
       "ai"
@@ -2809,9 +2809,9 @@
   {
     "name": "Ai accelerator institute",
     "score": 5.0,
-    "type": "general",
     "short desc": "linkedin for ai,on discord.",
     "tags": [
+      "general",
       "mostly inactive",
       "grad+industry chat",
       "irl opportunities",
@@ -2824,9 +2824,9 @@
   {
     "name": "open bioinformatics foundation",
     "score": 5.0,
-    "type": "fellowship",
     "short desc": "bioinformatics",
     "tags": [
+      "fellowship",
       "mostly inactive",
       "ai"
     ],
@@ -2836,9 +2836,9 @@
   {
     "name": "UCSB AI safety",
     "score": 5.0,
-    "type": "general",
     "short desc": "AI safety",
     "tags": [
+      "general",
       "mostly inactive",
       "irl based",
       "irl opportunities",
@@ -2851,9 +2851,9 @@
   {
     "name": "ARBML",
     "score": 5.0,
-    "type": "research",
     "short desc": "create an arabic llm,nlp research",
     "tags": [
+      "research",
       "mostly inactive",
       "github projects",
       "opportunities board",
@@ -2865,9 +2865,9 @@
   {
     "name": "ontocord",
     "score": 5.0,
-    "type": "research",
     "short desc": "safe ai",
     "tags": [
+      "research",
       "dead",
       "working group",
       "company projects",
@@ -2879,9 +2879,9 @@
   {
     "name": "ai for humans",
     "score": 5.0,
-    "type": "casual",
     "short desc": "casual ai education (not much coding etc),more consumer based",
     "tags": [
+      "casual",
       "semi active",
       "semi active creator",
       "ai"
@@ -2892,9 +2892,9 @@
   {
     "name": "Weights and biases",
     "score": 5.0,
-    "type": "casual",
     "short desc": "for the company weights and biases",
     "tags": [
+      "casual",
       "mostly inactive",
       "jobs board",
       "ai"
@@ -2905,9 +2905,9 @@
   {
     "name": "League of robot runners",
     "score": 5.0,
-    "type": "robotics",
     "short desc": "conference",
     "tags": [
+      "robotics",
       "mostly inactive",
       "ai"
     ],
@@ -2917,9 +2917,9 @@
   {
     "name": "queuelab",
     "score": 4.9,
-    "type": "general",
     "short desc": "general,company that does ai stuff",
     "tags": [
+      "general",
       "mostly inactive",
       "github projects",
       "ai"
@@ -2930,9 +2930,9 @@
   {
     "name": "dLLM's chat",
     "score": 4.9,
-    "type": "research",
     "short desc": "diffusion language model",
     "tags": [
+      "research",
       "mostly inactive",
       "ai"
     ],
@@ -2942,9 +2942,9 @@
   {
     "name": "bittensor",
     "score": 4.9,
-    "type": "company/crypto?",
     "short desc": "people submit models, and good models get rewarded with tokens",
     "tags": [
+      "company/crypto?",
       "semi active",
       "jobs board",
       "ai"
@@ -2955,9 +2955,9 @@
   {
     "name": "AGI",
     "score": 4.8,
-    "type": "research",
     "short desc": "autonomous ai",
     "tags": [
+      "research",
       "mostly inactive",
       "github projects",
       "opportunities board",
@@ -2969,9 +2969,9 @@
   {
     "name": "cambridge university ai ethics society",
     "score": 4.8,
-    "type": "alignment",
     "short desc": "more on the ethics side",
     "tags": [
+      "alignment",
       "mostly inactive",
       "irl based",
       "ai"
@@ -2982,9 +2982,9 @@
   {
     "name": "jasmine project",
     "score": 4.6,
-    "type": "general",
     "short desc": "casual",
     "tags": [
+      "general",
       "semi active",
       "ai"
     ],
@@ -2994,9 +2994,9 @@
   {
     "name": "norse",
     "score": 4.5,
-    "type": "research",
     "short desc": "library for spiking neural networks",
     "tags": [
+      "research",
       "mostly inactive",
       "github project",
       "github projects",
@@ -3008,9 +3008,9 @@
   {
     "name": "theoretical and computational neuroscience",
     "score": 4.5,
-    "type": "research",
     "short desc": "computational neuroscience",
     "tags": [
+      "research",
       "mostly inactive",
       "ai"
     ],
@@ -3020,9 +3020,9 @@
   {
     "name": "carperAI",
     "score": 4.5,
-    "type": "research",
     "short desc": "ai,general",
     "tags": [
+      "research",
       "mostly inactive",
       "opensci lab",
       "ai"
@@ -3033,9 +3033,9 @@
   {
     "name": "chembioai",
     "score": 4.5,
-    "type": "research",
     "short desc": "ai for science,hackathons",
     "tags": [
+      "research",
       "mostly inactive",
       "jobs board",
       "ai"
@@ -3046,9 +3046,9 @@
   {
     "name": "skunkworks ai",
     "score": 4.4,
-    "type": "research",
     "short desc": "general",
     "tags": [
+      "research",
       "dead",
       "working group",
       "ai"
@@ -3059,9 +3059,9 @@
   {
     "name": "agi conference",
     "score": 4.4,
-    "type": "conference",
     "short desc": "various relating to agi",
     "tags": [
+      "conference",
       "mostly inactive",
       "ai"
     ],
@@ -3071,9 +3071,9 @@
   {
     "name": "open model initative",
     "score": 4.3,
-    "type": "general",
     "short desc": "creating OSS multimodal models",
     "tags": [
+      "general",
       "dead",
       "opensci lab",
       "community projects",
@@ -3086,9 +3086,9 @@
   {
     "name": "commune ai",
     "score": 4.3,
-    "type": "crypto",
     "short desc": "decentralized ai(?)",
     "tags": [
+      "crypto",
       "semi active",
       "github projects",
       "ai"
@@ -3099,9 +3099,9 @@
   {
     "name": "open source ai club",
     "score": 4.3,
-    "type": "research",
     "short desc": "general",
     "tags": [
+      "research",
       "dead",
       "ai"
     ],
@@ -3111,9 +3111,9 @@
   {
     "name": "unireps",
     "score": 4.2,
-    "type": "conference",
     "short desc": "research on unifying representations in neural model",
     "tags": [
+      "conference",
       "mostly inactive",
       "ai"
     ],
@@ -3123,9 +3123,9 @@
   {
     "name": "Talms and agentic AI",
     "score": 4.1,
-    "type": "research",
     "short desc": "tool assisted language models",
     "tags": [
+      "research",
       "dead",
       "ai"
     ],
@@ -3135,9 +3135,9 @@
   {
     "name": "interpretability hangout",
     "score": 4.1,
-    "type": "general",
     "short desc": "ai interpretability",
     "tags": [
+      "general",
       "dead",
       "ai"
     ],
@@ -3147,9 +3147,9 @@
   {
     "name": "automorphic",
     "score": 4.0,
-    "type": "company",
     "short desc": "finetuneing i think?",
     "tags": [
+      "company",
       "dead",
       "semi active creator",
       "ai"
@@ -3160,9 +3160,9 @@
   {
     "name": "open AI lab",
     "score": 4.0,
-    "type": "general",
     "short desc": "ai learning",
     "tags": [
+      "general",
       "dead",
       "ai"
     ],
@@ -3172,9 +3172,9 @@
   {
     "name": "fingptAI 4 finance",
     "score": 4.0,
-    "type": "general",
     "short desc": "an AI for  finance",
     "tags": [
+      "general",
       "mostly inactive",
       "ai"
     ],
@@ -3184,9 +3184,9 @@
   {
     "name": "snufa",
     "score": 4.0,
-    "type": "conference",
     "short desc": "spiking neural networks (neuromorph)",
     "tags": [
+      "conference",
       "mostly inactive",
       "ai"
     ],
@@ -3196,9 +3196,9 @@
   {
     "name": "LLM360",
     "score": 4.0,
-    "type": "research",
     "short desc": "community owned ai",
     "tags": [
+      "research",
       "mostly inactive",
       "ai"
     ],
@@ -3208,9 +3208,9 @@
   {
     "name": "nomic ai",
     "score": 4.0,
-    "type": "research",
     "short desc": "any type of unstructed data (also gpt4all),explains datasets",
     "tags": [
+      "research",
       "semi active",
       "ai"
     ],
@@ -3220,9 +3220,9 @@
   {
     "name": "gothenburg artificial intelligence",
     "score": 4.0,
-    "type": "general",
     "short desc": "ai non research conference",
     "tags": [
+      "general",
       "mostly inactive",
       "ai"
     ],
@@ -3232,9 +3232,9 @@
   {
     "name": "metauni",
     "score": 3.9,
-    "type": "education",
     "short desc": "general ai among others,talks",
     "tags": [
+      "education",
       "dead",
       "research paper reading group",
       "applied reading group/showcase",
@@ -3246,9 +3246,9 @@
   {
     "name": "RL4AA",
     "score": 3.9,
-    "type": "research",
     "short desc": "RL",
     "tags": [
+      "research",
       "dead",
       "ai"
     ],
@@ -3258,9 +3258,9 @@
   {
     "name": "discoresearch",
     "score": 3.9,
-    "type": "research",
     "short desc": "LLMS",
     "tags": [
+      "research",
       "dead",
       "ai"
     ],
@@ -3270,9 +3270,9 @@
   {
     "name": "DMLR",
     "score": 3.6,
-    "type": "conference",
     "short desc": "datacentric machine learning",
     "tags": [
+      "conference",
       "dead",
       "ai"
     ],
@@ -3282,9 +3282,9 @@
   {
     "name": "general reasoning",
     "score": 3.5,
-    "type": "research",
     "short desc": "ai agents",
     "tags": [
+      "research",
       "mostly inactive",
       "working group",
       "semi active creator",
@@ -3296,9 +3296,9 @@
   {
     "name": "ai multiverse",
     "score": 3.5,
-    "type": "general",
     "short desc": "unsure",
     "tags": [
+      "general",
       "dead",
       "ai"
     ],
@@ -3308,9 +3308,9 @@
   {
     "name": "climate change ai",
     "score": 3.5,
-    "type": "research",
     "short desc": "climate change stuff relating to ai",
     "tags": [
+      "research",
       "mostly inactive",
       "grad+industry chat",
       "ai"
@@ -3321,9 +3321,9 @@
   {
     "name": "prisma multimodal and mech interp",
     "score": 3.4,
-    "type": "alignment",
     "short desc": "interpretability on all types of models",
     "tags": [
+      "alignment",
       "dead",
       "working group",
       "ai"
@@ -3334,9 +3334,9 @@
   {
     "name": "semeval-2025-task11",
     "score": 3.2,
-    "type": "conference",
     "short desc": "text based emotion detection",
     "tags": [
+      "conference",
       "dead",
       "ai"
     ],
@@ -3346,9 +3346,9 @@
   {
     "name": "Ai tinkerers montreal",
     "score": 3.2,
-    "type": "general",
     "short desc": "general",
     "tags": [
+      "general",
       "dead",
       "ai"
     ],
@@ -3358,9 +3358,9 @@
   {
     "name": "All AI community",
     "score": 3.1,
-    "type": "general",
     "short desc": "dead",
     "tags": [
+      "general",
       "dead",
       "ai"
     ],
@@ -3370,9 +3370,9 @@
   {
     "name": "gpu audio",
     "score": 3.1,
-    "type": "research",
     "short desc": "gpu for audio,not fully ai",
     "tags": [
+      "research",
       "dead",
       "ai"
     ],
@@ -3382,9 +3382,9 @@
   {
     "name": "agi sandbox",
     "score": 2.9,
-    "type": "general",
     "short desc": "general",
     "tags": [
+      "general",
       "dead",
       "ai"
     ],
@@ -3394,9 +3394,9 @@
   {
     "name": "code dot ai",
     "score": 2.7,
-    "type": "general",
     "short desc": "various",
     "tags": [
+      "general",
       "dead",
       "ai"
     ],
@@ -3406,9 +3406,9 @@
   {
     "name": "Harmonai R&D",
     "score": 2.5,
-    "type": "research",
     "short desc": "various",
     "tags": [
+      "research",
       "dead",
       "working group",
       "ai"
@@ -3419,9 +3419,9 @@
   {
     "name": "ai/ml start",
     "score": 2.2,
-    "type": "general",
     "short desc": "start to ml",
     "tags": [
+      "general",
       "dead",
       "ai"
     ],
@@ -3431,9 +3431,9 @@
   {
     "name": "seons server",
     "score": 2.0,
-    "type": "special",
     "short desc": "my own server",
     "tags": [
+      "special",
       "dead",
       "ai"
     ],
@@ -3443,9 +3443,9 @@
   {
     "name": "taysir competition",
     "score": 1.8,
-    "type": "conference",
     "short desc": "over",
     "tags": [
+      "conference",
       "dead",
       "ai"
     ],
@@ -3455,9 +3455,9 @@
   {
     "name": "octagon AI",
     "score": 1.7,
-    "type": "general",
     "short desc": "ai news",
     "tags": [
+      "general",
       "dead",
       "ai"
     ],
@@ -3467,9 +3467,9 @@
   {
     "name": "generated ai safety reports",
     "score": 1.6,
-    "type": "ai safety",
     "short desc": "variosu reports,usually generated by ai",
     "tags": [
+      "ai safety",
       "dead",
       "ai"
     ],
@@ -3479,9 +3479,9 @@
   {
     "name": "automation and reproducibility for ai/ml systems",
     "score": 1.6,
-    "type": "research",
     "short desc": "ai",
     "tags": [
+      "research",
       "dead",
       "ai"
     ],
@@ -3491,9 +3491,9 @@
   {
     "name": "open empathetic",
     "score": 1.3,
-    "type": "research",
     "short desc": "emotions in ai",
     "tags": [
+      "research",
       "dead",
       "github project",
       "ai"
@@ -3504,9 +3504,9 @@
   {
     "name": "agora",
     "score": 0.0,
-    "type": "research",
     "short desc": "kye",
     "tags": [
+      "research",
       "active",
       "opensci lab",
       "research paper reading group",
@@ -3519,9 +3519,9 @@
   {
     "name": "Torchbearer",
     "score": 7.5,
-    "type": "research",
     "short desc": "policy,AI safety,Alignment,etc",
     "tags": [
+      "research",
       "very active",
       "opensci lab",
       "community projects",
@@ -3536,9 +3536,9 @@
   {
     "name": "orchestra research community",
     "score": 6.3,
-    "type": "research",
     "short desc": "Product using agents for research",
     "tags": [
+      "research",
       "semi active",
       "github project",
       "active creator",
@@ -3550,9 +3550,9 @@
   {
     "name": "BabyLM",
     "score": 6.7,
-    "type": "research",
     "short desc": "sample-efficient pretraining under human-scale data budgets",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "ai"
@@ -3563,9 +3563,9 @@
   {
     "name": "medarc",
     "score": 7.8,
-    "type": "research",
     "short desc": "neuroai, AI for medical brain data",
     "tags": [
+      "research",
       "very active",
       "opensci lab",
       "community projects",
@@ -3582,9 +3582,9 @@
   {
     "name": "manifold research group",
     "score": 7.7,
-    "type": "research",
     "short desc": "autonomous ai,among others",
     "tags": [
+      "research",
       "active",
       "opensci lab",
       "company projects",
@@ -3600,9 +3600,9 @@
   {
     "name": "aspirational neuroscience journal club",
     "score": 7.2,
-    "type": "paper reading",
     "short desc": "neurosci",
     "tags": [
+      "paper reading",
       "active",
       "research paper reading group",
       "science"
@@ -3613,9 +3613,9 @@
   {
     "name": "Ronin institute",
     "score": 7.2,
-    "type": "research",
     "short desc": "members choose projects,mentorship",
     "tags": [
+      "research",
       "active",
       "paid",
       "opensci lab",
@@ -3630,9 +3630,9 @@
   {
     "name": "accepted society",
     "score": 7.2,
-    "type": "research",
     "short desc": "social sciences",
     "tags": [
+      "research",
       "active",
       "paid",
       "grad+industry chat",
@@ -3646,9 +3646,9 @@
   {
     "name": "postgraduate research hub",
     "score": 7.1,
-    "type": "general",
     "short desc": "GRADSCHOOL, ABOVE ONLY",
     "tags": [
+      "general",
       "active",
       "grad+industry chat",
       "opportunities board",
@@ -3660,9 +3660,9 @@
   {
     "name": "unitary foundation",
     "score": 7.1,
-    "type": "research",
     "short desc": "quantum",
     "tags": [
+      "research",
       "active",
       "working group",
       "github projects",
@@ -3676,9 +3676,9 @@
   {
     "name": "fan studies network",
     "score": 7.1,
-    "type": "research",
     "short desc": "research about fan communities",
     "tags": [
+      "research",
       "active",
       "grad+industry chat",
       "opportunities board",
@@ -3690,9 +3690,9 @@
   {
     "name": "content creators scholars network",
     "score": 7.1,
-    "type": "research",
     "short desc": "Scholarly stuff about content creators",
     "tags": [
+      "research",
       "semi active",
       "grad+industry chat",
       "opportunities board",
@@ -3704,9 +3704,9 @@
   {
     "name": "d/arc",
     "score": 7.0,
-    "type": "research",
     "short desc": "about social media (mostly discord)",
     "tags": [
+      "research",
       "active",
       "grad+industry chat",
       "opportunities board",
@@ -3718,9 +3718,9 @@
   {
     "name": "Brain inspired complexity reading group",
     "score": 7.0,
-    "type": "paper reading",
     "short desc": "brain inspired things",
     "tags": [
+      "paper reading",
       "active",
       "research paper reading group",
       "science"
@@ -3731,9 +3731,9 @@
   {
     "name": "wolfram institute community",
     "score": 7.0,
-    "type": "research",
     "short desc": "various",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "other reading group",
@@ -3746,9 +3746,9 @@
   {
     "name": "quantum biology dao",
     "score": 7.0,
-    "type": "research",
     "short desc": "quantum for biology",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "office hours/chat/working group",
@@ -3760,9 +3760,9 @@
   {
     "name": "Neurofields",
     "score": 7.0,
-    "type": "general",
     "short desc": "neuroscience related stuff",
     "tags": [
+      "general",
       "active",
       "working group",
       "research paper reading group",
@@ -3776,9 +3776,9 @@
   {
     "name": "degentech",
     "score": 7.0,
-    "type": "general",
     "short desc": "various stem stuff",
     "tags": [
+      "general",
       "very active",
       "grad+industry chat",
       "community projects",
@@ -3793,9 +3793,9 @@
   {
     "name": "deepchem",
     "score": 7.0,
-    "type": "research",
     "short desc": "life sciences+AI",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "community projects",
@@ -3809,9 +3809,9 @@
   {
     "name": "google labs",
     "score": 7.0,
-    "type": "general",
     "short desc": "various,its google labs.",
     "tags": [
+      "general",
       "very active",
       "opensci lab",
       "community projects",
@@ -3825,9 +3825,9 @@
   {
     "name": "Synthetic Biology Young Speaker Series",
     "score": 7.0,
-    "type": "reading group",
     "short desc": "biology",
     "tags": [
+      "reading group",
       "semi active",
       "research paper reading group",
       "science"
@@ -3838,9 +3838,9 @@
   {
     "name": "open memetics institute",
     "score": 7.0,
-    "type": "research",
     "short desc": "culture studies on memes etc",
     "tags": [
+      "research",
       "very active",
       "opensci lab",
       "applied reading group/showcase",
@@ -3852,9 +3852,9 @@
   {
     "name": "independent scientists",
     "score": 6.9,
-    "type": "research",
     "short desc": "general research",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "community projects",
@@ -3866,9 +3866,9 @@
   {
     "name": "quorum coworking",
     "score": 6.9,
-    "type": "general",
     "short desc": "biology research",
     "tags": [
+      "general",
       "semi active",
       "working group",
       "other reading group",
@@ -3881,9 +3881,9 @@
   {
     "name": "summer of protocols",
     "score": 6.9,
-    "type": "general",
     "short desc": "Improving protocols all around",
     "tags": [
+      "general",
       "semi active",
       "opensci lab",
       "opportunities board",
@@ -3895,9 +3895,9 @@
   {
     "name": "assumptions of physics",
     "score": 6.9,
-    "type": "research",
     "short desc": "Physics",
     "tags": [
+      "research",
       "mostly inactive",
       "working group",
       "science"
@@ -3908,9 +3908,9 @@
   {
     "name": "biopunk community",
     "score": 6.8,
-    "type": "research",
     "short desc": "more of an IRL bio space",
     "tags": [
+      "research",
       "active",
       "opensci lab",
       "community projects",
@@ -3924,9 +3924,9 @@
   {
     "name": "bio xyz",
     "score": 6.8,
-    "type": "general",
     "short desc": "funds desci projects",
     "tags": [
+      "general",
       "active",
       "science"
     ],
@@ -3936,9 +3936,9 @@
   {
     "name": "OpenBioML",
     "score": 6.8,
-    "type": "research",
     "short desc": "Biology plus ML",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "community projects",
@@ -3953,9 +3953,9 @@
   {
     "name": "community archive",
     "score": 6.7,
-    "type": "research",
     "short desc": "dataset of twitter posts",
     "tags": [
+      "research",
       "semi active",
       "github project",
       "science"
@@ -3966,9 +3966,9 @@
   {
     "name": "radvac project",
     "score": 6.7,
-    "type": "research",
     "short desc": "Diy vaccine style stuff",
     "tags": [
+      "research",
       "mostly inactive",
       "working group",
       "opportunities board",
@@ -3980,9 +3980,9 @@
   {
     "name": "researchhub",
     "score": 6.6,
-    "type": "general",
     "short desc": "funds research projects",
     "tags": [
+      "general",
       "semi active",
       "opportunities board",
       "science"
@@ -3993,9 +3993,9 @@
   {
     "name": "vesuvius challenge",
     "score": 6.5,
-    "type": "hackathon",
     "short desc": "read the dead sea scrolls",
     "tags": [
+      "hackathon",
       "semi active",
       "working group",
       "science"
@@ -4006,9 +4006,9 @@
   {
     "name": "center for election science",
     "score": 6.4,
-    "type": "research",
     "short desc": "election science",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "science"
@@ -4019,9 +4019,9 @@
   {
     "name": "project pythia",
     "score": 6.3,
-    "type": "research",
     "short desc": "geospatial research",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "office hours/chat/working group",
@@ -4034,9 +4034,9 @@
   {
     "name": "Helpful engineering",
     "score": 6.2,
-    "type": "research",
     "short desc": "engineering stuff+software",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "community projects",
@@ -4048,9 +4048,9 @@
   {
     "name": "niostem",
     "score": 5.9,
-    "type": "research",
     "short desc": "hair loss science",
     "tags": [
+      "research",
       "semi active",
       "working group",
       "office hours/chat/working group",
@@ -4062,9 +4062,9 @@
   {
     "name": "swedish quantum society",
     "score": 5.7,
-    "type": "research",
     "short desc": "swedish quantum society",
     "tags": [
+      "research",
       "semi active",
       "opensci lab",
       "science"
@@ -4075,9 +4075,9 @@
   {
     "name": "langang",
     "score": 5.6,
-    "type": "general",
     "short desc": "geospatial research",
     "tags": [
+      "general",
       "semi active",
       "github project",
       "community projects",
@@ -4090,9 +4090,9 @@
   {
     "name": "datasteward cz",
     "score": 5.5,
-    "type": "general",
     "short desc": "data related stuff",
     "tags": [
+      "general",
       "semi active",
       "grad+industry chat",
       "science"
@@ -4103,9 +4103,9 @@
   {
     "name": "nomad",
     "score": 5.4,
-    "type": "general",
     "short desc": "Materials science",
     "tags": [
+      "general",
       "semi active",
       "github project",
       "science"
@@ -4116,9 +4116,9 @@
   {
     "name": "Rishab academy (for highschoolers)",
     "score": 5.2,
-    "type": "general",
     "short desc": "lets hs'ers do research",
     "tags": [
+      "general",
       "mostly inactive",
       "community projects",
       "opportunities board",
@@ -4131,9 +4131,9 @@
   {
     "name": "sciwork",
     "score": 5.0,
-    "type": "general",
     "short desc": "various compsci things",
     "tags": [
+      "general",
       "semi active",
       "working group",
       "science"
@@ -4144,12 +4144,11 @@
   {
     "name": "science fair io",
     "score": 4.5,
-    "type": "research",
     "short desc": "various research competitions",
     "tags": [
+      "research",
       "inactive",
       "paid",
-      "research",
       "opportunities board",
       "science"
     ],
@@ -4159,9 +4158,9 @@
   {
     "name": "common crawl foundation",
     "score": 4.4,
-    "type": "general",
     "short desc": "big data",
     "tags": [
+      "general",
       "mostly inactive",
       "working group",
       "science"
@@ -4172,9 +4171,9 @@
   {
     "name": "wikipedia",
     "score": 4.2,
-    "type": "general",
     "short desc": "its wikipedia",
     "tags": [
+      "general",
       "mostly inactive",
       "working group",
       "science"
@@ -4185,9 +4184,9 @@
   {
     "name": "desci labs",
     "score": 4.0,
-    "type": "research",
     "short desc": "DAO and crypto research projects",
     "tags": [
+      "research",
       "inactive",
       "opensci lab",
       "science"
@@ -4198,9 +4197,9 @@
   {
     "name": "Big data biology public discord",
     "score": 3.9,
-    "type": "research",
     "short desc": "bioinformatics",
     "tags": [
+      "research",
       "inactive",
       "active creator",
       "science"
@@ -4211,9 +4210,9 @@
   {
     "name": "lifestyle corp",
     "score": 3.4,
-    "type": "research",
     "short desc": "medical bioscience stuff",
     "tags": [
+      "research",
       "mostly inactive",
       "science"
     ],
@@ -4223,9 +4222,9 @@
   {
     "name": "the sci initative",
     "score": 3.0,
-    "type": "research",
     "short desc": "DAO and crypto research projects",
     "tags": [
+      "research",
       "inactive",
       "opensci lab",
       "science"
@@ -4236,9 +4235,9 @@
   {
     "name": "power systems working group",
     "score": 3.0,
-    "type": "general",
     "short desc": "power systems",
     "tags": [
+      "general",
       "inactive",
       "working group",
       "science"
@@ -4249,9 +4248,9 @@
   {
     "name": "young european biologists",
     "score": 2.0,
-    "type": "general",
     "short desc": "early career biology",
     "tags": [
+      "general",
       "inactive",
       "grad+industry chat",
       "science"
@@ -4262,9 +4261,9 @@
   {
     "name": "hypercrowd research",
     "score": 2.0,
-    "type": "general",
     "short desc": "various",
     "tags": [
+      "general",
       "inactive",
       "working group",
       "science"
@@ -4275,9 +4274,9 @@
   {
     "name": "brainworks community builders",
     "score": 2.0,
-    "type": "general",
     "short desc": "neuro inspired AI",
     "tags": [
+      "general",
       "inactive",
       "github project",
       "science"
