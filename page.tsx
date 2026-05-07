@@ -88,18 +88,63 @@ const getActivity = (s: Server) => {
   return s.tags.reduce((b, t) => (activityRank(t) < activityRank(b) ? t : b), s.tags[0])
 }
 
-// Tag categories for sorting
+// Tag categories for sorting - Activity keeps original order, others sorted alphabetically
 const TAG_CATEGORIES: Record<string, string[]> = {
-  "Activity": ["very active", "active", "semi active", "mostly inactive", "dead"],
-  "Size": ["large", "medium", "small"],
-  "Focus": ["ai", "ml", "llm", "gpt", "stable diffusion", "midjourney", "coding", "research", "general"],
-  "Other": []
+  "Activity": ["very active", "active", "semi active", "inactive", "dead"],
+  "Opportunities?": [
+    "community projects",
+    "company projects", 
+    "github projects",
+    "irl opportunities",
+    "jobs board",
+    "opportunities board",
+  ],
+  "Reading Groups?": [
+    "applied reading group/showcase",
+    "office hours/chat/working group",
+    "other reading group",
+    "research paper reading group",
+  ],
+  "Server Type": [
+    "ai safety",
+    "alignment",
+    "casual",
+    "conference",
+    "crypto",
+    "education",
+    "fellowship",
+    "general",
+    "hackathon",
+    "hackathons",
+    "paper reading",
+    "research",
+    "special",
+    "tool",
+  ],
+  "Server Vibes": [
+    "github project",
+    "grad+industry chat",
+    "opensci lab",
+    "study group",
+    "working group",
+  ],
+  "AI or Science?": [
+    "ai",
+    "science",
+  ],
+  "Other": [
+    "active creator",
+    "irl based",
+    "paid",
+    "partly irl",
+    "semi active creator",
+  ],
 }
 
 const categorizeTag = (tag: string): string => {
-  const lower = tag.toLowerCase()
+  const lower = tag.toLowerCase().trim()
   for (const [category, tags] of Object.entries(TAG_CATEGORIES)) {
-    if (tags.some(t => lower.includes(t))) return category
+    if (tags.some(t => lower === t || lower.includes(t))) return category
   }
   return "Other"
 }
@@ -223,11 +268,37 @@ function AdvancedFiltersDropdown({
   }
 
   // Sort tags by category
-  const sortedTags = useMemo(() => {
-    const categorized: Record<string, string[]> = { Activity: [], Size: [], Focus: [], Other: [] }
+const sortedTags = useMemo(() => {
+    const categorized: Record<string, string[]> = {
+      "Activity": [],
+      "Opportunities?": [],
+      "Reading Groups?": [],
+      "Server Type": [],
+      "Server Vibes": [],
+      "AI or Science?": [],
+      "Other": [],
+    }
     allTags.forEach(tag => {
       const cat = categorizeTag(tag)
-      categorized[cat].push(tag)
+      if (categorized[cat]) {
+        categorized[cat].push(tag)
+      } else {
+        categorized["Other"].push(tag)
+      }
+    })
+    // Sort all categories alphabetically EXCEPT Activity which keeps its original order
+    Object.keys(categorized).forEach(cat => {
+      if (cat !== "Activity") {
+        categorized[cat].sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()))
+      } else {
+        // For Activity, sort by the predefined order in TAG_CATEGORIES
+        const activityOrder = TAG_CATEGORIES["Activity"]
+        categorized[cat].sort((a, b) => {
+          const aIndex = activityOrder.findIndex(t => a.toLowerCase().includes(t))
+          const bIndex = activityOrder.findIndex(t => b.toLowerCase().includes(t))
+          return (aIndex === -1 ? 99 : aIndex) - (bIndex === -1 ? 99 : bIndex)
+        })
+      }
     })
     return categorized
   }, [allTags])
