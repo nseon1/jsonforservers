@@ -2,8 +2,8 @@
 
 import { useState, useRef, useEffect, useMemo } from "react"
 
-const SERVERS_URL = "/servers.json"
-const TSNE_URL = "/servers_tsne.json"
+const SERVERS_URL = "https://raw.githubusercontent.com/nseon1/jsonforservers/main/servers.json"
+const TSNE_URL = "https://raw.githubusercontent.com/nseon1/jsonforservers/main/servers_tsne.json"
 
 interface Server {
   name: string
