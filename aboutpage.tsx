@@ -21,14 +21,14 @@ export default function AboutPage() {
             <div className="w-20 h-20 mx-auto rounded-2xl bg-gradient-to-br from-gold-light via-gold to-gold-dark flex items-center justify-center bevel-border glow-gold">
               <Sparkles className="h-10 w-10 text-primary-foreground" />
             </div>
-            <h1 className="text-3xl font-bold text-foreground">About AI Discord Directory</h1>
+            <h1 className="text-3xl font-bold text-foreground">About Research community Directory</h1>
           </div>
 
           {/* Content */}
           <div className="bg-card rounded-2xl p-6 md:p-8 border border-border bevel-border">
             <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
               <p>
-                Discord AI directory was a spreadsheet that started in November of 2024, it started with 100 servers but grew to well over 600, requiring some cutting down.
+                Research community Directory  was a spreadsheet that started in November of 2024, it started with 100 servers but grew to well over 600, requiring some cutting down.
               </p>
               
               <p>
