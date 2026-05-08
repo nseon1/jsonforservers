@@ -1180,8 +1180,8 @@ function Header() {
               <Sparkles className="h-5 w-5 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-foreground">AI Discord Directory</h1>
-              <p className="text-xs text-muted-foreground">Discover AI communities</p>
+              <h1 className="text-lg font-bold text-foreground">Research community Directory</h1>
+              <p className="text-xs text-muted-foreground">Discover non-university research communities</p>
             </div>
           </div>
           
@@ -1458,7 +1458,7 @@ export default function Page() {
       <footer className="border-t border-border bg-card/50 mt-12">
         <div className="max-w-[1000px] mx-auto px-4 sm:px-6 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-            <p>AI Discord Directory - Find your community</p>
+            <p>Research community Directory - Find your community</p>
             <div className="flex gap-4">
               <Link href="/about" className="hover:text-foreground transition-colors">About</Link>
               <Link href="/faq" className="hover:text-foreground transition-colors">FAQ</Link>
