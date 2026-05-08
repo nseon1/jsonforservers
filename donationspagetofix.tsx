@@ -83,7 +83,7 @@ export default function DonationsPage() {
             </div>
             <h1 className="text-3xl font-bold text-foreground">Support the Project</h1>
             <p className="text-muted-foreground max-w-lg mx-auto">
-Money will be used to add community scores and a backend.Extra money goes towards a book on the state of openscience
+Money will be used to add community scores and a backend.Extra money goes towards a book on the state of openscience.anyone who sends more than 10 dollars becomes a sponsor in the credits page.
             </p>
           </div>
 
