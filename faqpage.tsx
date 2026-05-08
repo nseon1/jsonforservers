@@ -7,48 +7,91 @@ import { useState } from "react"
 
 const faqs = [
   {
-    question: "What is the AI Discord Directory?",
-    answer: "The AI Discord Directory is a curated collection of Discord servers focused on artificial intelligence, machine learning, and related topics. We provide quality scores, activity levels, and detailed descriptions to help you find the perfect community."
+    question: "What is the Research community Directory?",
+    answer: (
+      <>
+        The Research community Directory is a curated collection of online servers focused on various gradschool communities not in university; see{" "}
+        <a 
+          href="https://www.lesswrong.com/posts/9eehTtLsTBZR9Bd7Q/on-open-science-research-labs-on-discord-and-getting-more" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-primary hover:underline break-all"
+        >
+          https://www.lesswrong.com/posts/9eehTtLsTBZR9Bd7Q/on-open-science-research-labs-on-discord-and-getting-more
+        </a>.
+      </>
+    )
   },
   {
     question: "How are servers scored?",
-    answer: "Servers are scored on a scale of 0-10 based on multiple factors including: activity level, quality of discussions, helpfulness of the community, moderation quality, and relevance to AI topics. Scores are periodically reviewed and updated."
+    answer: "Servers are scored on a scale of 0-10 based on multiple factors including activity level, quality of discussions, and mostly vibes. All scored by me, seon."
   },
   {
     question: "What is the T-SNE view?",
-    answer: "T-SNE (t-distributed Stochastic Neighbor Embedding) is a visualization technique that places similar servers closer together on a 2D map. This helps you discover servers that are similar to ones you already like. The colors represent score ranges: green for high scores (7-10), yellow (6-6.9), orange (5-5.9), and red for lower scores."
+    answer: "T-SNE (t-distributed Stochastic Neighbor Embedding) is a visualization technique that places similar servers closer together on a 2D map. This helps you discover servers that are similar to ones you already like. It looks cool."
   },
   {
     question: "How does the Quadrant view work?",
-    answer: "The Quadrant view lets you select two tags and see how servers are distributed based on whether they have those tags or not. This is useful for finding servers that match specific combinations of characteristics."
+    answer: "The Quadrant view lets you select two tags and see how servers are distributed based on whether they have those tags or not. It also looks cool."
   },
   {
-    question: "How can I submit a server?",
-    answer: "To submit a new server for consideration, please reach out through our community channels. We review all submissions to ensure they meet our quality standards before adding them to the directory."
-  },
-  {
-    question: "Why isn't my favorite server listed?",
-    answer: "We may not know about it yet! The directory is community-driven, so if you know of a quality AI Discord server that should be included, please submit it for consideration."
+    question: "How can I submit a server? What about changing a score?",
+    answer: (
+      <>
+        To submit a new server for consideration, message me at <strong>seonresearch</strong>,{" "}
+        <a 
+          href="https://x.com/SeonGunness" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-primary hover:underline"
+        >
+          x.com/seongunness
+        </a>
+        , add it to the{" "}
+        <a 
+          href="https://docs.google.com/spreadsheets/d/1DlBT1pF8-zMECntRWXFsL46gZyvNp1BJlJ6LXGze4dA/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-primary hover:underline break-all"
+        >
+          original sheet
+        </a>
+        , or join my server and ask there:{" "}
+        <a 
+          href="https://discord.gg/g5ZvRRZfv5" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-primary hover:underline"
+        >
+          https://discord.gg/g5ZvRRZfv5
+        </a>
+      </>
+    )
   },
   {
     question: "How often is the data updated?",
-    answer: "We aim to review and update server information regularly. Activity levels and scores may be adjusted based on periodic checks. If you notice outdated information, please let us know."
-  },
-  {
-    question: "What do the activity tags mean?",
-    answer: "Activity tags indicate how active a server is: 'Very Active' means constant activity, 'Active' means regular daily discussions, 'Semi Active' means periodic activity, 'Mostly Inactive' means occasional activity, and 'Dead' means little to no recent activity."
-  },
-  {
-    question: "Can I filter out certain types of servers?",
-    answer: "Yes! Use the Advanced Filters dropdown to include or exclude servers with specific tags. Click once to require a tag (green +), click twice to exclude it (red -), and click again to reset."
+    answer: "Rarely. Tags are decently outdated but scores mostly feel correct."
   },
   {
     question: "Is this project open source?",
-    answer: "The directory data and frontend are maintained by the community. For contribution guidelines and more information, check our Credits page."
+    answer: (
+      <>
+        Scores by me, code here:{" "}
+        <a 
+          href="https://github.com/nseon1/jsonforservers/tree/main" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-primary hover:underline break-all"
+        >
+          https://github.com/nseon1/jsonforservers/tree/main
+        </a>
+        . You can submit servers to the spreadsheet. And I am looking for assistance to add community scores!
+      </>
+    )
   }
 ]
 
-function FAQItem({ question, answer }: { question: string; answer: string }) {
+function FAQItem({ question, answer }: { question: string; answer: React.ReactNode }) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -90,7 +133,7 @@ export default function FAQPage() {
             </div>
             <h1 className="text-3xl font-bold text-foreground">Frequently Asked Questions</h1>
             <p className="text-muted-foreground max-w-lg mx-auto">
-              Everything you need to know about using the AI Discord Directory
+              Commonly asked questions
             </p>
           </div>
 
@@ -99,19 +142,6 @@ export default function FAQPage() {
             {faqs.map((faq, index) => (
               <FAQItem key={index} question={faq.question} answer={faq.answer} />
             ))}
-          </div>
-
-          {/* Still have questions */}
-          <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-transparent rounded-2xl p-6 border border-primary/20 bevel-border text-center">
-            <h2 className="text-xl font-bold text-foreground mb-2">Still have questions?</h2>
-            <p className="text-muted-foreground mb-4">
-              If you could not find what you were looking for, feel free to reach out to our community.
-            </p>
-            <Link href="/about">
-              <Button variant="outline" className="bevel-border">
-                Learn More About Us
-              </Button>
-            </Link>
           </div>
         </div>
       </div>
