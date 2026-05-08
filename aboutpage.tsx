@@ -28,7 +28,7 @@ export default function AboutPage() {
           <div className="bg-card rounded-2xl p-6 md:p-8 border border-border bevel-border">
             <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
               <p>
-                Research community Directory  was a spreadsheet that started in November of 2024, it started with 100 servers but grew to well over 600, requiring some cutting down.
+                note: see FAQ for github. Research community Directory  was a spreadsheet that started in November of 2024, it started with 100 servers but grew to well over 600, requiring some cutting down.
               </p>
               
               <p>
