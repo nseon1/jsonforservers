@@ -8,19 +8,19 @@ import { useState } from "react"
 const cryptoAddresses = [
   {
     name: "Bitcoin (BTC)",
-    address: "bc1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    address: "bc1qhk305qkg0nntwadct7x0ax08gj8pqlck3nh9gw",
     icon: "₿",
     color: "from-orange-500 to-orange-600"
   },
   {
     name: "Ethereum (ETH)",
-    address: "0xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    address: "0x9973ba33b95E97F43358271120e2eb6A3d4bc0C9",
     icon: "Ξ",
     color: "from-indigo-500 to-purple-600"
   },
   {
     name: "Solana (SOL)",
-    address: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    address: "64mj6K2rT8NVzhhpthTdsmxi89rEfiK7qvsZyPTGkrgS",
     icon: "◎",
     color: "from-purple-500 to-pink-500"
   }
@@ -83,7 +83,7 @@ export default function DonationsPage() {
             </div>
             <h1 className="text-3xl font-bold text-foreground">Support the Project</h1>
             <p className="text-muted-foreground max-w-lg mx-auto">
-              Help us keep the AI Discord Directory running and growing
+Money will be used to add community scores and a backend.Extra money goes towards a book on the state of openscience
             </p>
           </div>
 
@@ -91,12 +91,12 @@ export default function DonationsPage() {
           <div className="bg-card rounded-2xl p-6 border border-border bevel-border">
             <h2 className="text-xl font-bold text-foreground mb-4">Why Donate?</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              The AI Discord Directory is a free, community-driven project. Your donations help cover:
+              The AI Discord Directory is a free project. Your donations help cover:
             </p>
             <ul className="text-muted-foreground space-y-2">
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span>Hosting and infrastructure costs</span>
+                <span>Hosting and infrastructure costs,currently free but will be required if I add community votes.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
@@ -117,7 +117,7 @@ export default function DonationsPage() {
           <div className="bg-card rounded-2xl p-6 border border-border bevel-border">
             <h2 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
               <Coffee className="h-5 w-5 text-primary" />
-              Buy Us a Coffee
+              https://ko-fi.com/seonresearch
             </h2>
             <p className="text-muted-foreground mb-4">
               Show your appreciation with a small donation through these platforms:
@@ -127,10 +127,9 @@ export default function DonationsPage() {
                 Ko-fi (Coming Soon)
               </Button>
               <Button variant="outline" className="bevel-border" disabled>
-                Buy Me a Coffee (Coming Soon)
               </Button>
               <Button variant="outline" className="bevel-border" disabled>
-                Patreon (Coming Soon)
+                Patreon (Coming Soon) https://www.patreon.com/c/seonsheet/membership
               </Button>
             </div>
           </div>
@@ -150,7 +149,6 @@ export default function DonationsPage() {
               ))}
             </div>
             <p className="text-xs text-muted-foreground mt-4 italic">
-              Note: These are placeholder addresses. Real addresses will be provided soon.
             </p>
           </div>
 
@@ -172,7 +170,7 @@ export default function DonationsPage() {
             <ul className="text-muted-foreground space-y-2">
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span>Submit new servers to be listed</span>
+                <span>Submit new servers to be listed,help write code!</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
