@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useRef, useEffect, useMemo } from "react"
+import { supabase } from "./supabaseClient" // Adjust path if needed
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -1166,10 +1167,34 @@ function ListView({
 function Header() {
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
+  const [user, setUser] = useState<any>(null)
 
   useEffect(() => {
     setMounted(true)
+    
+    // Check active session
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setUser(session?.user ?? null)
+    })
+
+    // Listen for auth changes (login/logout)
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null)
+    })
+
+    return () => subscription.unsubscribe()
   }, [])
+
+  const handleLogin = async () => {
+    // You can change 'discord' to 'google' if you prefer!
+    await supabase.auth.signInWithOAuth({
+      provider: 'discord',
+    })
+  }
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut()
+  }
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -1186,6 +1211,19 @@ function Header() {
           </div>
           
           <div className="flex items-center gap-2">
+            {/* Login / Logout Button */}
+            {mounted && (
+              user ? (
+                <Button variant="outline" size="sm" onClick={handleLogout} className="bevel-border">
+                  Logout
+                </Button>
+              ) : (
+                <Button variant="default" size="sm" onClick={handleLogin} className="bevel-border glow-gold">
+                  Sign In
+                </Button>
+              )
+            )}
+
             {/* Theme toggle */}
             {mounted && (
               <Button
