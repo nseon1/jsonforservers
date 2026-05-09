@@ -47,6 +47,8 @@ const TSNE_URL = "https://raw.githubusercontent.com/nseon1/jsonforservers/main/s
 interface Server {
   name: string
   score?: number
+  seon_score?: number        
+  community_count?: number    
   "short desc"?: string
   tags?: string[]
   notes?: string
@@ -1057,30 +1059,38 @@ function ListView({
                   <td className="px-4 py-3 font-semibold text-foreground">{s.name}</td>
                   {compactColumns.includes("score") && (
                     <td className="px-4 py-3">
-                <div className="flex items-center gap-2 ml-2">
-                  <span 
-                    className="font-bold text-sm whitespace-nowrap"
-                    style={{ color: getScoreColorHex(s.score || 0, isDark) }}
-                  >
-                    {s.score || 0}
-                  </span>
-                  <select 
-                    className="text-xs bg-muted text-muted-foreground border border-border rounded p-1 cursor-pointer outline-none hover:border-primary transition-colors"
-                    onChange={(e) => {
-                      if (e.target.value !== "") {
-                        handleVote(s.name, parseInt(e.target.value))
-                        e.target.value = "" 
-                      }
-                    }}
-                  >
-                    <option value="">Rate</option>
-                    {[10,9,8,7,6,5,4,3,2,1].map(n => (
-                      <option key={n} value={n}>{n}</option>
-                    ))}
-                  </select>
-                </div>
+                      <div className="flex flex-col gap-1">
+                        <div className="text-[10px] uppercase tracking-wider text-muted-foreground">
+                          Seon: <span className="font-semibold" style={{ color: getScoreColorHex(s.seon_score || 0, isDark) }}>{s.seon_score || 0}</span>
+                        </div>
+                        <div className="flex items-center gap-1.5">
+                          <span className="text-[10px] uppercase tracking-wider text-muted-foreground" title={`${s.community_count || 0} votes`}>
+                            Comm:
+                          </span>
+                          <span 
+                            className="font-bold text-sm"
+                            style={{ color: getScoreColorHex(s.community_count ? (s.score || 0) : 0, isDark) }}
+                          >
+                            {s.community_count ? s.score : "-"}
+                          </span>
+                          <select 
+                            className="text-[10px] bg-muted text-muted-foreground border border-border rounded px-1 py-0.5 cursor-pointer outline-none hover:border-primary transition-colors"
+                            onChange={(e) => {
+                              if (e.target.value !== "") {
+                                handleVote(s.name, parseInt(e.target.value))
+                                e.target.value = "" 
+                              }
+                            }}
+                          >
+                            <option value="">Rate</option>
+                            {[10,9,8,7,6,5,4,3,2,1].map(n => (
+                              <option key={n} value={n}>{n}</option>
+                            ))}
+                          </select>
+                        </div>
+                      </div>
                     </td>
-                  )}
+                  )}                  
                   {compactColumns.includes("activity") && (
                     <td className="px-4 py-3">
                       <Badge variant="outline" className="text-xs">
@@ -1151,30 +1161,36 @@ function ListView({
                     s.name
                   )}
                 </div>
-                <div className="flex items-center gap-2 ml-2">
-                  <span 
-                    className="font-bold text-sm whitespace-nowrap"
-                    style={{ color: getScoreColorHex(s.score || 0, isDark) }}
-                  >
-                    {s.score || 0}
-                  </span>
-                  <select 
-                    className="text-xs bg-muted text-muted-foreground border border-border rounded p-1 cursor-pointer outline-none hover:border-primary transition-colors"
-                    onChange={(e) => {
-                      if (e.target.value !== "") {
-                        handleVote(s.name, parseInt(e.target.value))
-                        e.target.value = "" 
-                      }
-                    }}
-                  >
-                    <option value="">Rate</option>
-                    {[10,9,8,7,6,5,4,3,2,1].map(n => (
-                      <option key={n} value={n}>{n}</option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-              
+                <div className="flex flex-col items-end gap-1 ml-2">
+                  <div className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold">
+                    Seon: <span style={{ color: getScoreColorHex(s.seon_score || 0, isDark) }}>{s.seon_score || 0}</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold" title={`${s.community_count || 0} votes`}>
+                      Comm:
+                    </span>
+                    <span 
+                      className="font-bold text-sm whitespace-nowrap"
+                      style={{ color: getScoreColorHex(s.community_count ? (s.score || 0) : 0, isDark) }}
+                    >
+                      {s.community_count ? s.score : "-"}
+                    </span>
+                    <select 
+                      className="text-[10px] bg-muted text-muted-foreground border border-border rounded px-1 py-0.5 cursor-pointer outline-none hover:border-primary transition-colors"
+                      onChange={(e) => {
+                        if (e.target.value !== "") {
+                          handleVote(s.name, parseInt(e.target.value))
+                          e.target.value = "" 
+                        }
+                      }}
+                    >
+                      <option value="">Rate</option>
+                      {[10,9,8,7,6,5,4,3,2,1].map(n => (
+                        <option key={n} value={n}>{n}</option>
+                      ))}
+                    </select>
+                  </div>
+                </div>              
               {getDescription(s) && (
                 <p className="text-muted-foreground text-sm leading-relaxed mb-3">
                   {getDescription(s)}
@@ -1369,14 +1385,16 @@ useEffect(() => {
             (t.name || "").toLowerCase() === (server.name || "").toLowerCase()
         )
         
-        // Override the static score with the community average if it exists
-        const communityAvg = averages[server.name] 
-          ? Number((averages[server.name].total / averages[server.name].count).toFixed(1))
-          : server.score
+        const commData = averages[server.name]
+        const communityAvg = commData 
+          ? Number((commData.total / commData.count).toFixed(1))
+          : server.score // Fallback for sorting purposes
 
         return {
           ...server,
-          score: communityAvg,
+          seon_score: server.score, // Save your original score!
+          score: communityAvg,      // Use community score for general sorting/sizing
+          community_count: commData ? commData.count : 0, // Keep track of votes
           tsne_x: mapping?.tsne_x,
           tsne_y: mapping?.tsne_y,
         }
