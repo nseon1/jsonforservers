@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowLeft, Heart, Code, Database, Palette } from "lucide-react"
+import { ArrowLeft, Heart, Code, Database, Palette, Star } from "lucide-react"
 
 export default function CreditsPage() {
   return (
@@ -36,17 +36,28 @@ export default function CreditsPage() {
             <div className="space-y-4">
               <div className="flex items-center gap-4 p-4 bg-muted/50 rounded-xl">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center text-primary-foreground font-bold">
-                  N
+                  S
                 </div>
                 <div>
-                  <div className="font-semibold text-foreground">nseon1</div>
+                  <div className="font-semibold text-foreground">Seon Gunness</div>
                   <div className="text-sm text-muted-foreground">Project Lead & Data Curator</div>
                 </div>
               </div>
-              <p className="text-sm text-muted-foreground">
-                Additional contributors will be listed here as the project grows.
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                <strong>Additional contributors:</strong> Special thanks to the 2025 SOAR team: qk, inkosana, jellyfish, vedant bachhav, and joseph awuah. You all saved me a lot of time helping create some sample iterations of the site, testing and giving various data visualization and analytics ideas, and going through a lot of existing online aggregates of servers in non-discord spaces and finding a few good ones that were added, too!
               </p>
             </div>
+          </div>
+          
+          {/* Sponsors */}
+          <div className="bg-card rounded-2xl p-6 border border-border bevel-border">
+            <h2 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
+              <Star className="h-5 w-5 text-primary" />
+              Sponsors
+            </h2>
+            <p className="text-muted-foreground leading-relaxed">
+              <strong>BATbot!</strong> for letting me use its Gemini, Claude, and other models to help write the current code.
+            </p>
           </div>
 
           {/* Data Sources */}
@@ -113,6 +124,14 @@ export default function CreditsPage() {
               We welcome contributions! Whether it is submitting new servers, updating 
               existing information, or improving the code, every bit helps.
             </p>
+            <div className="flex flex-col gap-2 mb-6">
+              <Link href="https://github.com/nseon1/jsonforservers" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline break-all">
+                GitHub Repository
+              </Link>
+              <Link href="https://docs.google.com/spreadsheets/d/1DlBT1pF8-zMECntRWXFsL46gZyvNp1BJlJ6LXGze4dA/edit?gid=0#gid=0" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline break-all">
+                Google Sheets Data
+              </Link>
+            </div>
             <Link href="/donations">
               <Button className="bevel-border">
                 <Heart className="h-4 w-4 mr-2" />
