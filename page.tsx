@@ -843,6 +843,7 @@ function ListView({
   hiddenTags,
   setHiddenTags,
   isDark,
+  handleVote,
 }: {
   data: Server[]
   tagFilters: Record<string, TagFilterState>
@@ -850,6 +851,7 @@ function ListView({
   hiddenTags: Set<string>
   setHiddenTags: React.Dispatch<React.SetStateAction<Set<string>>>
   isDark: boolean
+  handleVote: (serverName: string, score: number) => void // <--- And this
 }) {
   const [query, setQuery] = useState("")
   const [scoreRange, setScoreRange] = useState<[number, number]>([0, 10])
@@ -1055,12 +1057,28 @@ function ListView({
                   <td className="px-4 py-3 font-semibold text-foreground">{s.name}</td>
                   {compactColumns.includes("score") && (
                     <td className="px-4 py-3">
-                      <span 
-                        className="font-bold"
-                        style={{ color: getScoreColorHex(s.score || 0, isDark) }}
-                      >
-                        {s.score || 0}
-                      </span>
+                <div className="flex items-center gap-2 ml-2">
+                  <span 
+                    className="font-bold text-sm whitespace-nowrap"
+                    style={{ color: getScoreColorHex(s.score || 0, isDark) }}
+                  >
+                    {s.score || 0}
+                  </span>
+                  <select 
+                    className="text-xs bg-muted text-muted-foreground border border-border rounded p-1 cursor-pointer outline-none hover:border-primary transition-colors"
+                    onChange={(e) => {
+                      if (e.target.value !== "") {
+                        handleVote(s.name, parseInt(e.target.value))
+                        e.target.value = "" 
+                      }
+                    }}
+                  >
+                    <option value="">Rate</option>
+                    {[10,9,8,7,6,5,4,3,2,1].map(n => (
+                      <option key={n} value={n}>{n}</option>
+                    ))}
+                  </select>
+                </div>
                     </td>
                   )}
                   {compactColumns.includes("activity") && (
@@ -1133,12 +1151,28 @@ function ListView({
                     s.name
                   )}
                 </div>
-                <span 
-                  className="font-bold text-sm whitespace-nowrap ml-2"
-                  style={{ color: getScoreColorHex(s.score || 0, isDark) }}
-                >
-                  {s.score || 0}
-                </span>
+                <div className="flex items-center gap-2 ml-2">
+                  <span 
+                    className="font-bold text-sm whitespace-nowrap"
+                    style={{ color: getScoreColorHex(s.score || 0, isDark) }}
+                  >
+                    {s.score || 0}
+                  </span>
+                  <select 
+                    className="text-xs bg-muted text-muted-foreground border border-border rounded p-1 cursor-pointer outline-none hover:border-primary transition-colors"
+                    onChange={(e) => {
+                      if (e.target.value !== "") {
+                        handleVote(s.name, parseInt(e.target.value))
+                        e.target.value = "" 
+                      }
+                    }}
+                  >
+                    <option value="">Rate</option>
+                    {[10,9,8,7,6,5,4,3,2,1].map(n => (
+                      <option key={n} value={n}>{n}</option>
+                    ))}
+                  </select>
+                </div>
               </div>
               
               {getDescription(s) && (
@@ -1304,37 +1338,57 @@ export default function Page() {
 
   const allTags = useMemo(() => [...new Set(data.flatMap((s) => s.tags || []))].sort(), [data])
 
-  useEffect(() => {
-    Promise.all([
-      fetch(SERVERS_URL).then((r) => {
-        if (!r.ok) throw new Error("Failed to load servers.json")
-        return r.json()
-      }),
-      fetch(TSNE_URL).then((r) => {
-        if (!r.ok) throw new Error("Failed to load servers_tsne.json")
-        return r.json()
-      }),
-    ])
-      .then(([serversData, tsneData]) => {
-        const mergedData = serversData.map((server: Server) => {
-          const mapping = tsneData.find(
-            (t: { name?: string; tsne_x?: number; tsne_y?: number }) =>
-              (t.name || "").toLowerCase() === (server.name || "").toLowerCase()
-          )
-          return {
-            ...server,
-            tsne_x: mapping?.tsne_x,
-            tsne_y: mapping?.tsne_y,
-          }
+useEffect(() => {
+  Promise.all([
+    fetch(SERVERS_URL).then((r) => {
+      if (!r.ok) throw new Error("Failed to load servers.json")
+      return r.json()
+    }),
+    fetch(TSNE_URL).then((r) => {
+      if (!r.ok) throw new Error("Failed to load servers_tsne.json")
+      return r.json()
+    }),
+    supabase.from('votes').select('server_name, score') // Fetch community votes
+  ])
+    .then(([serversData, tsneData, { data: votesData, error: votesError }]) => {
+      if (votesError) console.error("Error fetching votes:", votesError)
+      
+      // Calculate average scores
+      const averages: Record<string, { total: number, count: number }> = {}
+      if (votesData) {
+        votesData.forEach(vote => {
+          if (!averages[vote.server_name]) averages[vote.server_name] = { total: 0, count: 0 }
+          averages[vote.server_name].total += vote.score
+          averages[vote.server_name].count += 1
         })
-        setData(mergedData)
-        setLoading(false)
+      }
+
+      const mergedData = serversData.map((server: Server) => {
+        const mapping = tsneData.find(
+          (t: { name?: string; tsne_x?: number; tsne_y?: number }) =>
+            (t.name || "").toLowerCase() === (server.name || "").toLowerCase()
+        )
+        
+        // Override the static score with the community average if it exists
+        const communityAvg = averages[server.name] 
+          ? Number((averages[server.name].total / averages[server.name].count).toFixed(1))
+          : server.score
+
+        return {
+          ...server,
+          score: communityAvg,
+          tsne_x: mapping?.tsne_x,
+          tsne_y: mapping?.tsne_y,
+        }
       })
-      .catch((e) => {
-        setError(e.message)
-        setLoading(false)
-      })
-  }, [])
+      setData(mergedData)
+      setLoading(false)
+    })
+    .catch((e) => {
+      setError(e.message)
+      setLoading(false)
+    })
+}, [])
 
   const visibleData = useMemo(
     () =>
@@ -1345,6 +1399,32 @@ export default function Page() {
     [data, scoreRange, tagFilters]
   )
 
+  const handleVote = async (serverName: string, score: number) => {
+    const { data: { session } } = await supabase.auth.getSession()
+    
+    if (!session) {
+      alert("Please sign in to vote!")
+      return
+    }
+
+    const { error } = await supabase
+      .from('votes')
+      .upsert({ 
+        server_name: serverName, 
+        user_id: session.user.id, 
+        score: score 
+      }, { onConflict: 'server_name, user_id' })
+
+    if (error) {
+      console.error("Error voting:", error)
+      alert("Failed to save vote.")
+    } else {
+      alert(`Successfully rated ${serverName} a ${score}/10! (Refresh to see updated global averages)`)
+      // You could write extra code here to instantly update the `data` state, 
+      // but a page refresh is easiest for now to recalculate all the averages!
+    }
+  }
+  
   if (loading) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
@@ -1488,6 +1568,7 @@ export default function Page() {
             hiddenTags={hiddenTags}
             setHiddenTags={setHiddenTags}
             isDark={isDark}
+            handleVote={handleVote}
           />
         )}
       </main>
