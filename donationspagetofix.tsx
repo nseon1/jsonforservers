@@ -83,7 +83,7 @@ export default function DonationsPage() {
             </div>
             <h1 className="text-3xl font-bold text-foreground">Support the Project</h1>
             <p className="text-muted-foreground max-w-lg mx-auto">
-Money will be used to add community scores and a backend.Extra money goes towards a book on the state of openscience.anyone who sends more than 10 dollars becomes a sponsor in the credits page.
+              Money will be used to add community scores and a backend. Extra money goes towards a book on the state of open science. Anyone who sends more than $10 becomes a sponsor on the credits page.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ Money will be used to add community scores and a backend.Extra money goes toward
             <ul className="text-muted-foreground space-y-2">
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span>Hosting and infrastructure costs,currently free but will be required if I add community votes.</span>
+                <span>Hosting and infrastructure costs (currently free but will be required if I add community votes)</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
@@ -117,20 +117,22 @@ Money will be used to add community scores and a backend.Extra money goes toward
           <div className="bg-card rounded-2xl p-6 border border-border bevel-border">
             <h2 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
               <Coffee className="h-5 w-5 text-primary" />
-              https://ko-fi.com/seonresearch
+              Support Platforms
             </h2>
             <p className="text-muted-foreground mb-4">
               Show your appreciation with a small donation through these platforms:
             </p>
             <div className="flex flex-wrap gap-3">
-              <Button variant="outline" className="bevel-border" disabled>
-                Ko-fi (Coming Soon)
-              </Button>
-              <Button variant="outline" className="bevel-border" disabled>
-              </Button>
-              <Button variant="outline" className="bevel-border" disabled>
-                Patreon (Coming Soon) https://www.patreon.com/c/seonsheet/membership
-              </Button>
+              <Link href="https://ko-fi.com/seonresearch" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="bevel-border">
+                  Support on Ko-fi
+                </Button>
+              </Link>
+              <Link href="https://www.patreon.com/c/seonsheet/membership" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="bevel-border">
+                  Join on Patreon
+                </Button>
+              </Link>
             </div>
           </div>
 
@@ -148,8 +150,6 @@ Money will be used to add community scores and a backend.Extra money goes toward
                 <CryptoCard key={crypto.name} {...crypto} />
               ))}
             </div>
-            <p className="text-xs text-muted-foreground mt-4 italic">
-            </p>
           </div>
 
           {/* Thank You */}
@@ -165,12 +165,12 @@ Money will be used to add community scores and a backend.Extra money goes toward
           <div className="bg-card rounded-2xl p-6 border border-border bevel-border">
             <h2 className="text-xl font-bold text-foreground mb-4">Other Ways to Help</h2>
             <p className="text-muted-foreground mb-4">
-              Do not have the means to donate? No worries! Here are other ways you can support us:
+              Don't have the means to donate? No worries! Here are other ways you can support us:
             </p>
             <ul className="text-muted-foreground space-y-2">
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
-                <span>Submit new servers to be listed,help write code!</span>
+                <span>Submit new servers to be listed, or help write code!</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">•</span>
