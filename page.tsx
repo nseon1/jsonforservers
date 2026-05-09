@@ -1061,7 +1061,7 @@ function ListView({
                     <td className="px-4 py-3">
                       <div className="flex flex-col gap-1">
                         <div className="text-[10px] uppercase tracking-wider text-muted-foreground">
-                          Seon: <span className="font-semibold" style={{ color: getScoreColorHex(s.seon_score || 0, isDark) }}>{s.seon_score || 0}</span>
+                          Owner: <span className="font-semibold" style={{ color: getScoreColorHex(s.seon_score || 0, isDark) }}>{s.seon_score || 0}</span>
                         </div>
                         <div className="flex items-center gap-1.5">
                           <span className="text-[10px] uppercase tracking-wider text-muted-foreground" title={`${s.community_count || 0} votes`}>
@@ -1163,7 +1163,7 @@ function ListView({
                 </div>
                 <div className="flex flex-col items-end gap-1 ml-2">
                   <div className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold">
-                    Seon: <span style={{ color: getScoreColorHex(s.seon_score || 0, isDark) }}>{s.seon_score || 0}</span>
+                    Owner: <span style={{ color: getScoreColorHex(s.seon_score || 0, isDark) }}>{s.seon_score || 0}</span>
                   </div>
                   <div className="flex items-center gap-1.5">
                     <span className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold" title={`${s.community_count || 0} votes`}>
