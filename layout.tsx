@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'AI Discord Directory',
-  description: 'Discover and explore AI-focused Discord communities',
+  title: 'Research Directory',
+  description: 'Discover and explore Research communities',
   generator: 'v0.app',
   icons: {
     icon: [
