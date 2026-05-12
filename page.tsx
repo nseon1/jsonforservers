@@ -118,7 +118,6 @@ const TAG_CATEGORIES: Record<string, string[]> = {
     "fellowship",
     "general",
     "hackathon",
-    "hackathons",
     "paper reading",
     "research",
     "special",
