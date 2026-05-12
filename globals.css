@@ -3,50 +3,52 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Elegant Gold & Dark Theme */
+/* Y2K Porcelain & Chrome Theme */
 :root {
-  /* Light mode - clean whites with gold accents */
-  --background: oklch(0.98 0.005 85);
-  --foreground: oklch(0.15 0.01 60);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.15 0.01 60);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.15 0.01 60);
-  --primary: oklch(0.65 0.15 75);
-  --primary-foreground: oklch(0.12 0.02 60);
-  --secondary: oklch(0.95 0.01 85);
-  --secondary-foreground: oklch(0.25 0.02 60);
-  --muted: oklch(0.94 0.008 85);
-  --muted-foreground: oklch(0.45 0.02 60);
-  --accent: oklch(0.75 0.14 80);
-  --accent-foreground: oklch(0.12 0.02 60);
-  --destructive: oklch(0.55 0.22 25);
-  --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.88 0.02 85);
-  --input: oklch(0.92 0.01 85);
-  --ring: oklch(0.65 0.15 75);
-  --chart-1: oklch(0.65 0.15 75);
-  --chart-2: oklch(0.55 0.12 45);
-  --chart-3: oklch(0.45 0.08 30);
-  --chart-4: oklch(0.70 0.10 90);
-  --chart-5: oklch(0.60 0.08 60);
+  /* Light mode - blinding whites, porcelain artificiality, faint greenish-silver */
+  --background: oklch(0.98 0.02 165); /* Faint greenish silver white */
+  --foreground: oklch(0.35 0.05 165); /* Dark chrome text */
+  --card: oklch(1 0.01 165); /* Blinding porcelain white */
+  --card-foreground: oklch(0.35 0.05 165);
+  --popover: oklch(1 0.02 165);
+  --popover-foreground: oklch(0.35 0.05 165);
+  --primary: oklch(0.92 0.08 165); /* Heavy faint greenish silver */
+  --primary-foreground: oklch(0.2 0.05 165);
+  --secondary: oklch(0.95 0.04 165);
+  --secondary-foreground: oklch(0.3 0.05 165);
+  --muted: oklch(0.96 0.03 165);
+  --muted-foreground: oklch(0.5 0.04 165);
+  --accent: oklch(0.88 0.1 165);
+  --accent-foreground: oklch(0.2 0.05 165);
+  --destructive: oklch(0.6 0.15 20);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.85 0.06 165); /* Shiny chrome border */
+  --input: oklch(0.94 0.04 165);
+  --ring: oklch(0.85 0.08 165);
+  
+  /* Y2K Cyberspace Chart Colors */
+  --chart-1: oklch(0.85 0.08 165);
+  --chart-2: oklch(0.75 0.1 170);
+  --chart-3: oklch(0.65 0.12 175);
+  --chart-4: oklch(0.90 0.06 160);
+  --chart-5: oklch(0.80 0.09 165);
   --radius: 0.5rem;
   
-  /* Custom gold accent colors */
-  --gold: oklch(0.75 0.14 80);
-  --gold-light: oklch(0.85 0.12 85);
-  --gold-dark: oklch(0.55 0.14 70);
-  --gold-muted: oklch(0.65 0.08 80);
+  /* Repurposing "gold" variables into Greenish-Silver Chrome to avoid breaking classes */
+  --gold: oklch(0.88 0.08 165);
+  --gold-light: oklch(1 0.03 165); /* Extreme bloom / lens flare white */
+  --gold-dark: oklch(0.70 0.08 165); /* Deeper chrome reflection */
+  --gold-muted: oklch(0.94 0.05 165);
   
-  /* Score colors for visualizations */
-  --score-excellent: oklch(0.65 0.2 145);
-  --score-good: oklch(0.75 0.18 95);
-  --score-medium: oklch(0.70 0.18 60);
-  --score-low: oklch(0.60 0.22 30);
+  /* Adjusted score colors for the new theme */
+  --score-excellent: oklch(0.85 0.15 160);
+  --score-good: oklch(0.88 0.1 140);
+  --score-medium: oklch(0.85 0.08 100);
+  --score-low: oklch(0.80 0.1 40);
 }
 
 .dark {
-  /* Dark mode - deep blacks with gold accents */
+  /* Dark mode - deep blacks with gold accents (Kept as is) */
   --background: oklch(0.12 0.01 60);
   --foreground: oklch(0.95 0.01 85);
   --card: oklch(0.16 0.015 60);
@@ -117,7 +119,7 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   
-  /* Custom gold colors */
+  /* Mapped to Chrome/Silver in light mode, Gold in dark mode */
   --color-gold: var(--gold);
   --color-gold-light: var(--gold-light);
   --color-gold-dark: var(--gold-dark);
@@ -139,7 +141,7 @@
   }
 }
 
-/* Custom scrollbar for the elegant theme */
+/* Custom scrollbar and utilities for the aesthetic */
 @layer utilities {
   .scrollbar-gold {
     scrollbar-width: thin;
@@ -164,11 +166,11 @@
     background: var(--gold);
   }
   
-  /* Beveled border effect */
+  /* Beveled border effect (Chrome plastic edges in light mode) */
   .bevel-border {
     box-shadow: 
-      inset 1px 1px 0 0 oklch(1 0 0 / 0.1),
-      inset -1px -1px 0 0 oklch(0 0 0 / 0.1);
+      inset 2px 2px 5px 0 oklch(1 0.02 165 / 0.8), /* Blinding highlight */
+      inset -2px -2px 5px 0 oklch(0.6 0.05 165 / 0.2); /* Silver shadow */
   }
   
   .dark .bevel-border {
@@ -177,22 +179,28 @@
       inset -1px -1px 0 0 oklch(0 0 0 / 0.3);
   }
   
-  /* Gold gradient text */
+  /* Gradient text (Chrome/Porcelain in light, Gold in dark) */
   .text-gold-gradient {
     background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, var(--gold-dark) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    /* Added porcelain artificiality text shadow for light mode */
+    text-shadow: 0 0 10px oklch(1 0 0 / 0.5);
   }
   
-  /* Gold border gradient */
+  .dark .text-gold-gradient {
+    text-shadow: none;
+  }
+  
+  /* Border gradient */
   .border-gold-gradient {
     border-image: linear-gradient(135deg, var(--gold-light), var(--gold), var(--gold-dark)) 1;
   }
   
-  /* Subtle gold glow */
+  /* Intense Glow / Halation for Y2K extreme bloom */
   .glow-gold {
-    box-shadow: 0 0 20px -5px var(--gold-muted);
+    box-shadow: 0 0 30px -2px var(--gold-light), 0 0 10px -2px var(--gold);
   }
   
   .dark .glow-gold {
