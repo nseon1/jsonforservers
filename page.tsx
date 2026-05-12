@@ -1073,20 +1073,27 @@ function ListView({
                           >
                             {s.community_count ? s.score : "-"}
                           </span>
-                          <select 
-                            className="text-[10px] bg-muted text-muted-foreground border border-border rounded px-1 py-0.5 cursor-pointer outline-none hover:border-primary transition-colors"
-                            onChange={(e) => {
-                              if (e.target.value !== "") {
-                                handleVote(s.name, parseInt(e.target.value))
-                                e.target.value = "" 
-                              }
-                            }}
-                          >
-                            <option value="">Rate</option>
-                            {[10,9,8,7,6,5,4,3,2,1].map(n => (
-                              <option key={n} value={n}>{n}</option>
-                            ))}
-                          </select>
+                         <input 
+  type="number"
+  min="1"
+  max="10"
+  step="0.1"
+  placeholder="Rate"
+  title="Press Enter to submit"
+  className="text-[10px] bg-muted text-muted-foreground border border-border rounded px-1 py-0.5 outline-none hover:border-primary transition-colors w-14"
+  onKeyDown={(e) => {
+    if (e.key === 'Enter') {
+      // Parse, round to 1 decimal place, and validate
+      const val = Math.round(parseFloat(e.currentTarget.value) * 10) / 10;
+      if (!isNaN(val) && val >= 1 && val <= 10) {
+        handleVote(s.name, val);
+        e.currentTarget.value = "";
+      } else {
+        alert("Please enter a valid rating between 1 and 10.");
+      }
+    }
+  }}
+/>
                         </div>
                       </div>
                     </td>
@@ -1175,20 +1182,27 @@ function ListView({
                     >
                       {s.community_count ? s.score : "-"}
                     </span>
-                    <select 
-                      className="text-[10px] bg-muted text-muted-foreground border border-border rounded px-1 py-0.5 cursor-pointer outline-none hover:border-primary transition-colors"
-                      onChange={(e) => {
-                        if (e.target.value !== "") {
-                          handleVote(s.name, parseInt(e.target.value))
-                          e.target.value = "" 
-                        }
-                      }}
-                    >
-                      <option value="">Rate</option>
-                      {[10,9,8,7,6,5,4,3,2,1].map(n => (
-                        <option key={n} value={n}>{n}</option>
-                      ))}
-                    </select>
+<input 
+  type="number"
+  min="1"
+  max="10"
+  step="0.1"
+  placeholder="Rate"
+  title="Press Enter to submit"
+  className="text-[10px] bg-muted text-muted-foreground border border-border rounded px-1 py-0.5 outline-none hover:border-primary transition-colors w-14"
+  onKeyDown={(e) => {
+    if (e.key === 'Enter') {
+      // Parse, round to 1 decimal place, and validate
+      const val = Math.round(parseFloat(e.currentTarget.value) * 10) / 10;
+      if (!isNaN(val) && val >= 1 && val <= 10) {
+        handleVote(s.name, val);
+        e.currentTarget.value = "";
+      } else {
+        alert("Please enter a valid rating between 1 and 10.");
+      }
+    }
+  }}
+/>
                   </div>
                 </div>              
               {getDescription(s) && (
